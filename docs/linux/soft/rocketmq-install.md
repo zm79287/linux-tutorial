@@ -1,40 +1,40 @@
-# RocketMQ å®‰è£…éƒ¨ç½²
+# RocketMQ °²×°²¿Êğ
 
 <!-- TOC depthFrom:2 depthTo:3 -->
 
-- [ç¯å¢ƒè¦æ±‚](#ç¯å¢ƒè¦æ±‚)
-- [ä¸‹è½½è§£å‹](#ä¸‹è½½è§£å‹)
-- [å¯åŠ¨ Name Server](#å¯åŠ¨-name-server)
-- [å¯åŠ¨ Broker](#å¯åŠ¨-broker)
-- [æ”¶å‘æ¶ˆæ¯](#æ”¶å‘æ¶ˆæ¯)
-- [å…³é—­æœåŠ¡å™¨](#å…³é—­æœåŠ¡å™¨)
+- [»·¾³ÒªÇó](#»·¾³ÒªÇó)
+- [ÏÂÔØ½âÑ¹](#ÏÂÔØ½âÑ¹)
+- [Æô¶¯ Name Server](#Æô¶¯-name-server)
+- [Æô¶¯ Broker](#Æô¶¯-broker)
+- [ÊÕ·¢ÏûÏ¢](#ÊÕ·¢ÏûÏ¢)
+- [¹Ø±Õ·şÎñÆ÷](#¹Ø±Õ·şÎñÆ÷)
 - [FAQ](#faq)
     - [connect to <172.17.0.1:10909> failed](#connect-to-172170110909-failed)
-- [å‚è€ƒèµ„æ–™](#å‚è€ƒèµ„æ–™)
+- [²Î¿¼×ÊÁÏ](#²Î¿¼×ÊÁÏ)
 
 <!-- /TOC -->
 
-## ç¯å¢ƒè¦æ±‚
+## »·¾³ÒªÇó
 
-- æ¨è 64 ä½æ“ä½œç³»ç»Ÿï¼šLinux/Unix/Mac
+- ÍÆ¼ö 64 Î»²Ù×÷ÏµÍ³£ºLinux/Unix/Mac
 - 64bit JDK 1.8+
 - Maven 3.2.x
 - Git
 
-## ä¸‹è½½è§£å‹
+## ÏÂÔØ½âÑ¹
 
-è¿›å…¥å®˜æ–¹ä¸‹è½½åœ°å€ï¼šhttps://rocketmq.apache.org/dowloading/releases/ï¼Œé€‰æ‹©åˆé€‚ç‰ˆæœ¬
+½øÈë¹Ù·½ÏÂÔØµØÖ·£ºhttps://rocketmq.apache.org/dowloading/releases/£¬Ñ¡ÔñºÏÊÊ°æ±¾
 
-å»ºè®®é€‰æ‹© binary ç‰ˆæœ¬ã€‚
+½¨ÒéÑ¡Ôñ binary °æ±¾¡£
 
-è§£å‹åˆ°æœ¬åœ°ï¼š
+½âÑ¹µ½±¾µØ£º
 
 ```bash
 > unzip rocketmq-all-4.2.0-source-release.zip
 > cd rocketmq-all-4.2.0/
 ```
 
-## å¯åŠ¨ Name Server
+## Æô¶¯ Name Server
 
 ```bash
 > nohup sh bin/mqnamesrv &
@@ -42,7 +42,7 @@
 The Name Server boot success...
 ```
 
-## å¯åŠ¨ Broker
+## Æô¶¯ Broker
 
 ```bash
 > nohup sh bin/mqbroker -n localhost:9876 -c conf/broker.conf &
@@ -50,9 +50,9 @@ The Name Server boot success...
 The broker[%s, 172.30.30.233:10911] boot success...
 ```
 
-## æ”¶å‘æ¶ˆæ¯
+## ÊÕ·¢ÏûÏ¢
 
-æ‰§è¡Œæ”¶å‘æ¶ˆæ¯æ“ä½œä¹‹å‰ï¼Œä¸è®¸å‘Šè¯‰å®¢æˆ·ç«¯å‘½åæœåŠ¡å™¨çš„ä½ç½®ã€‚åœ¨ RocketMQ ä¸­æœ‰å¤šç§æ–¹æ³•æ¥å®ç°è¿™ä¸ªç›®çš„ã€‚è¿™é‡Œï¼Œæˆ‘ä»¬ä½¿ç”¨æœ€ç®€å•çš„æ–¹æ³•â€”â€”è®¾ç½®ç¯å¢ƒå˜é‡ `NAMESRV_ADDR` ï¼š
+Ö´ĞĞÊÕ·¢ÏûÏ¢²Ù×÷Ö®Ç°£¬²»Ğí¸æËß¿Í»§¶ËÃüÃû·şÎñÆ÷µÄÎ»ÖÃ¡£ÔÚ RocketMQ ÖĞÓĞ¶àÖÖ·½·¨À´ÊµÏÖÕâ¸öÄ¿µÄ¡£ÕâÀï£¬ÎÒÃÇÊ¹ÓÃ×î¼òµ¥µÄ·½·¨¡ª¡ªÉèÖÃ»·¾³±äÁ¿ `NAMESRV_ADDR` £º
 
 ```bash
 > export NAMESRV_ADDR=localhost:9876
@@ -63,7 +63,7 @@ SendResult [sendStatus=SEND_OK, msgId= ...
 ConsumeMessageThread_%d Receive New Messages: [MessageExt...
 ```
 
-## å…³é—­æœåŠ¡å™¨
+## ¹Ø±Õ·şÎñÆ÷
 
 ```bash
 > sh bin/mqshutdown broker
@@ -79,7 +79,7 @@ Send shutdown request to mqnamesrv(36664) OK
 
 ### connect to <172.17.0.1:10909> failed
 
-å¯åŠ¨åï¼Œç”Ÿäº§è€…å®¢æˆ·ç«¯è¿æ¥ RocketMQ æ—¶æŠ¥é”™ï¼š
+Æô¶¯ºó£¬Éú²úÕß¿Í»§¶ËÁ¬½Ó RocketMQ Ê±±¨´í£º
 
 ```java
 org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to <172.17.0.1:10909> failed
@@ -96,31 +96,31 @@ org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to <172
     at com.emrubik.uc.mdm.sync.utils.MdmInit.main(MdmInit.java:2149)
 ```
 
-åŸå› ï¼šRocketMQ éƒ¨ç½²åœ¨è™šæ‹Ÿæœºä¸Šï¼Œå†…ç½‘ ip ä¸º 10.10.30.63ï¼Œè¯¥è™šæ‹Ÿæœºä¸€ä¸ª docker0 ç½‘å¡ï¼Œip ä¸º 172.17.0.1ã€‚RocketMQ broker å¯åŠ¨æ—¶é»˜è®¤ä½¿ç”¨äº† docker0 ç½‘å¡ï¼Œç”Ÿäº§è€…å®¢æˆ·ç«¯æ— æ³•è¿æ¥ 172.17.0.1ï¼Œé€ æˆä»¥ä¸Šé—®é¢˜ã€‚
+Ô­Òò£ºRocketMQ ²¿ÊğÔÚĞéÄâ»úÉÏ£¬ÄÚÍø ip Îª 10.10.30.63£¬¸ÃĞéÄâ»úÒ»¸ö docker0 Íø¿¨£¬ip Îª 172.17.0.1¡£RocketMQ broker Æô¶¯Ê±Ä¬ÈÏÊ¹ÓÃÁË docker0 Íø¿¨£¬Éú²úÕß¿Í»§¶ËÎŞ·¨Á¬½Ó 172.17.0.1£¬Ôì³ÉÒÔÉÏÎÊÌâ¡£
 
-è§£å†³æ–¹æ¡ˆ
+½â¾ö·½°¸
 
-ï¼ˆ1ï¼‰å¹²æ‰ docker0 ç½‘å¡æˆ–ä¿®æ”¹ç½‘å¡åç§°
+£¨1£©¸Éµô docker0 Íø¿¨»òĞŞ¸ÄÍø¿¨Ãû³Æ
 
-ï¼ˆ2ï¼‰åœæ‰ brokerï¼Œä¿®æ”¹ broker é…ç½®æ–‡ä»¶ï¼Œé‡å¯ brokerã€‚
+£¨2£©Í£µô broker£¬ĞŞ¸Ä broker ÅäÖÃÎÄ¼ş£¬ÖØÆô broker¡£
 
-ä¿®æ”¹ conf/broker.confï¼Œå¢åŠ ä¸¤è¡Œæ¥æŒ‡å®šå¯åŠ¨ broker çš„ IPï¼š
+ĞŞ¸Ä conf/broker.conf£¬Ôö¼ÓÁ½ĞĞÀ´Ö¸¶¨Æô¶¯ broker µÄ IP£º
 
 ```
 namesrvAddr = 10.10.30.63:9876
 brokerIP1 = 10.10.30.63
 ```
 
-å¯åŠ¨æ—¶éœ€è¦æŒ‡å®šé…ç½®æ–‡ä»¶
+Æô¶¯Ê±ĞèÒªÖ¸¶¨ÅäÖÃÎÄ¼ş
 
 ```bash
 nohup sh bin/mqbroker -n localhost:9876 -c conf/broker.conf &
 ```
 
-## æ›´å¤šå†…å®¹
+## ¸ü¶àÄÚÈİ
 
-- **å¼•ç”³**
-  - [æ“ä½œç³»ç»Ÿã€è¿ç»´éƒ¨ç½²æ€»ç»“ç³»åˆ—](https://github.com/dunwu/OS)
-- **å¼•ç”¨**
-  - [RocketMQ å®˜æ–¹æ–‡æ¡£](http://rocketmq.apache.org/docs/quick-start/)
-  - [RocketMQ æ­å»ºåŠåˆ¨å‘](http://laciagin.me/2017/12/07/RocketMQ%E6%90%AD%E5%BB%BA%E5%8F%8A%E5%88%A8%E5%9D%91/)
+- **ÒıÉê**
+  - [²Ù×÷ÏµÍ³¡¢ÔËÎ¬²¿Êğ×Ü½áÏµÁĞ](https://github.com/dunwu/OS)
+- **ÒıÓÃ**
+  - [RocketMQ ¹Ù·½ÎÄµµ](http://rocketmq.apache.org/docs/quick-start/)
+  - [RocketMQ ´î½¨¼°ÅÙ¿Ó](http://laciagin.me/2017/12/07/RocketMQ%E6%90%AD%E5%BB%BA%E5%8F%8A%E5%88%A8%E5%9D%91/)

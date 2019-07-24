@@ -1,55 +1,55 @@
-# ZooKeeper å®‰è£…éƒ¨ç½²
+# ZooKeeper °²×°²¿Êğ
 
-> ç¯å¢ƒè¦æ±‚ï¼šJDK6+
+> »·¾³ÒªÇó£ºJDK6+
 
 <!-- TOC depthFrom:2 depthTo:3 -->
 
-- [ä¸‹è½½è§£å‹ ZooKeeper](#ä¸‹è½½è§£å‹-zookeeper)
-- [åˆ›å»ºé…ç½®æ–‡ä»¶](#åˆ›å»ºé…ç½®æ–‡ä»¶)
-- [å¯åŠ¨ ZooKeeper æœåŠ¡å™¨](#å¯åŠ¨-zookeeper-æœåŠ¡å™¨)
-- [å¯åŠ¨ CLI](#å¯åŠ¨-cli)
-- [åœæ­¢ ZooKeeper æœåŠ¡å™¨](#åœæ­¢-zookeeper-æœåŠ¡å™¨)
+- [ÏÂÔØ½âÑ¹ ZooKeeper](#ÏÂÔØ½âÑ¹-zookeeper)
+- [´´½¨ÅäÖÃÎÄ¼ş](#´´½¨ÅäÖÃÎÄ¼ş)
+- [Æô¶¯ ZooKeeper ·şÎñÆ÷](#Æô¶¯-zookeeper-·şÎñÆ÷)
+- [Æô¶¯ CLI](#Æô¶¯-cli)
+- [Í£Ö¹ ZooKeeper ·şÎñÆ÷](#Í£Ö¹-zookeeper-·şÎñÆ÷)
 
 <!-- /TOC -->
 
-åœ¨å®‰è£… ZooKeeper ä¹‹å‰ï¼Œè¯·ç¡®ä¿ä½ çš„ç³»ç»Ÿæ˜¯åœ¨ä»¥ä¸‹ä»»ä¸€æ“ä½œç³»ç»Ÿä¸Šè¿è¡Œï¼š
+ÔÚ°²×° ZooKeeper Ö®Ç°£¬ÇëÈ·±£ÄãµÄÏµÍ³ÊÇÔÚÒÔÏÂÈÎÒ»²Ù×÷ÏµÍ³ÉÏÔËĞĞ£º
 
-- **ä»»æ„ Linux OS** - æ”¯æŒå¼€å‘å’Œéƒ¨ç½²ã€‚é€‚åˆæ¼”ç¤ºåº”ç”¨ç¨‹åºã€‚
-- **Windows OS** - ä»…æ”¯æŒå¼€å‘ã€‚
-- **Mac OS** - ä»…æ”¯æŒå¼€å‘ã€‚
+- **ÈÎÒâ Linux OS** - Ö§³Ö¿ª·¢ºÍ²¿Êğ¡£ÊÊºÏÑİÊ¾Ó¦ÓÃ³ÌĞò¡£
+- **Windows OS** - ½öÖ§³Ö¿ª·¢¡£
+- **Mac OS** - ½öÖ§³Ö¿ª·¢¡£
 
-å®‰è£…æ­¥éª¤å¦‚ä¸‹ï¼š
+°²×°²½ÖèÈçÏÂ£º
 
-## ä¸‹è½½è§£å‹ ZooKeeper
+## ÏÂÔØ½âÑ¹ ZooKeeper
 
-è¿›å…¥å®˜æ–¹ä¸‹è½½åœ°å€ï¼šhttp://zookeeper.apache.org/releases.html#download ï¼Œé€‰æ‹©åˆé€‚ç‰ˆæœ¬ã€‚
+½øÈë¹Ù·½ÏÂÔØµØÖ·£ºhttp://zookeeper.apache.org/releases.html#download £¬Ñ¡ÔñºÏÊÊ°æ±¾¡£
 
-è§£å‹åˆ°æœ¬åœ°ï¼š
+½âÑ¹µ½±¾µØ£º
 
 ```
 $ tar -zxf zookeeper-3.4.6.tar.gz
 $ cd zookeeper-3.4.6
 ```
 
-## åˆ›å»ºé…ç½®æ–‡ä»¶
+## ´´½¨ÅäÖÃÎÄ¼ş
 
-ä½ å¿…é¡»åˆ›å»º `conf/zoo.cfg` æ–‡ä»¶ï¼Œå¦åˆ™å¯åŠ¨æ—¶ä¼šæç¤ºä½ æ²¡æœ‰æ­¤æ–‡ä»¶ã€‚
+Äã±ØĞë´´½¨ `conf/zoo.cfg` ÎÄ¼ş£¬·ñÔòÆô¶¯Ê±»áÌáÊ¾ÄãÃ»ÓĞ´ËÎÄ¼ş¡£
 
-åˆæ¬¡å°è¯•ï¼Œä¸å¦¨ç›´æ¥ä½¿ç”¨ Kafka æä¾›çš„æ¨¡æ¿é…ç½®æ–‡ä»¶ `conf/zoo_sample.cfg`ï¼š
+³õ´Î³¢ÊÔ£¬²»·ÁÖ±½ÓÊ¹ÓÃ Kafka Ìá¹©µÄÄ£°åÅäÖÃÎÄ¼ş `conf/zoo_sample.cfg`£º
 
 ```
 $ cp conf/zoo_sample.cfg conf/zoo.cfg
 ```
 
-## å¯åŠ¨ ZooKeeper æœåŠ¡å™¨
+## Æô¶¯ ZooKeeper ·şÎñÆ÷
 
-æ‰§è¡Œä»¥ä¸‹å‘½ä»¤
+Ö´ĞĞÒÔÏÂÃüÁî
 
 ```
 $ bin/zkServer.sh start
 ```
 
-æ‰§è¡Œæ­¤å‘½ä»¤åï¼Œä½ å°†æ”¶åˆ°ä»¥ä¸‹å“åº”
+Ö´ĞĞ´ËÃüÁîºó£¬Äã½«ÊÕµ½ÒÔÏÂÏìÓ¦
 
 ```
 $ JMX enabled by default
@@ -57,15 +57,15 @@ $ Using config: /Users/../zookeeper-3.4.6/bin/../conf/zoo.cfg
 $ Starting zookeeper ... STARTED
 ```
 
-## å¯åŠ¨ CLI
+## Æô¶¯ CLI
 
-é”®å…¥ä»¥ä¸‹å‘½ä»¤
+¼üÈëÒÔÏÂÃüÁî
 
 ```
 $ bin/zkCli.sh
 ```
 
-é”®å…¥ä¸Šè¿°å‘½ä»¤åï¼Œå°†è¿æ¥åˆ° ZooKeeper æœåŠ¡å™¨ï¼Œä½ åº”è¯¥å¾—åˆ°ä»¥ä¸‹å“åº”ã€‚
+¼üÈëÉÏÊöÃüÁîºó£¬½«Á¬½Óµ½ ZooKeeper ·şÎñÆ÷£¬ÄãÓ¦¸ÃµÃµ½ÒÔÏÂÏìÓ¦¡£
 
 ```
 Connecting to localhost:2181
@@ -80,17 +80,17 @@ WatchedEvent state:SyncConnected type: None path:null
 [zk: localhost:2181(CONNECTED) 0]
 ```
 
-## åœæ­¢ ZooKeeper æœåŠ¡å™¨
+## Í£Ö¹ ZooKeeper ·şÎñÆ÷
 
-è¿æ¥æœåŠ¡å™¨å¹¶æ‰§è¡Œæ‰€æœ‰æ“ä½œåï¼Œå¯ä»¥ä½¿ç”¨ä»¥ä¸‹å‘½ä»¤åœæ­¢ zookeeper æœåŠ¡å™¨ã€‚
+Á¬½Ó·şÎñÆ÷²¢Ö´ĞĞËùÓĞ²Ù×÷ºó£¬¿ÉÒÔÊ¹ÓÃÒÔÏÂÃüÁîÍ£Ö¹ zookeeper ·şÎñÆ÷¡£
 
 ```
 $ bin/zkServer.sh stop
 ```
 
-> æœ¬èŠ‚å®‰è£…å†…å®¹å‚è€ƒï¼š[Zookeeper å®‰è£…](https://www.w3cschool.cn/zookeeper/zookeeper_installation.html)
+> ±¾½Ú°²×°ÄÚÈİ²Î¿¼£º[Zookeeper °²×°](https://www.w3cschool.cn/zookeeper/zookeeper_installation.html)
 
-## æ›´å¤šå†…å®¹
+## ¸ü¶àÄÚÈİ
 
-- **å¼•ç”³**
-  - [æ“ä½œç³»ç»Ÿã€è¿ç»´éƒ¨ç½²æ€»ç»“ç³»åˆ—](https://github.com/dunwu/OS)
+- **ÒıÉê**
+  - [²Ù×÷ÏµÍ³¡¢ÔËÎ¬²¿Êğ×Ü½áÏµÁĞ](https://github.com/dunwu/OS)

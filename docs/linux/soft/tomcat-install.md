@@ -1,24 +1,24 @@
-# Tomcat å®‰è£…
+# Tomcat °²×°
 
 <!-- TOC depthFrom:2 depthTo:3 -->
 
-- [å®‰è£…](#å®‰è£…)
-- [å¯åŠ¨](#å¯åŠ¨)
-- [è„šæœ¬](#è„šæœ¬)
+- [°²×°](#°²×°)
+- [Æô¶¯](#Æô¶¯)
+- [½Å±¾](#½Å±¾)
 
 <!-- /TOC -->
 
-## å®‰è£…
+## °²×°
 
-å®‰è£…æ­¥éª¤å¦‚ä¸‹ï¼š
+°²×°²½ÖèÈçÏÂ£º
 
-ï¼ˆ1ï¼‰ä¸‹è½½å¹¶è§£å‹åˆ°æœ¬åœ°
+£¨1£©ÏÂÔØ²¢½âÑ¹µ½±¾µØ
 
-è¿›å…¥å®˜ç½‘ä¸‹è½½åœ°å€ï¼šhttps://tomcat.apache.org/download-80.cgi ï¼Œé€‰æ‹©åˆé€‚çš„ç‰ˆæœ¬ä¸‹è½½ã€‚
+½øÈë¹ÙÍøÏÂÔØµØÖ·£ºhttps://tomcat.apache.org/download-80.cgi £¬Ñ¡ÔñºÏÊÊµÄ°æ±¾ÏÂÔØ¡£
 
-æˆ‘é€‰æ‹©çš„æ˜¯æœ€æ–°ç¨³å®šç‰ˆæœ¬ 8.5.28ï¼šhttp://mirrors.tuna.tsinghua.edu.cn/apache/tomcat/tomcat-8/v8.5.28/bin/apache-tomcat-8.5.28.tar.gz
+ÎÒÑ¡ÔñµÄÊÇ×îĞÂÎÈ¶¨°æ±¾ 8.5.28£ºhttp://mirrors.tuna.tsinghua.edu.cn/apache/tomcat/tomcat-8/v8.5.28/bin/apache-tomcat-8.5.28.tar.gz
 
-æˆ‘ä¸ªäººå–œæ¬¢å­˜æ”¾åœ¨ï¼š`/opt/tomcat`
+ÎÒ¸öÈËÏ²»¶´æ·ÅÔÚ£º`/opt/tomcat`
 
 ```
 wget -O /opt/tomcat/apache-tomcat-8.5.28.tar.gz http://mirrors.tuna.tsinghua.edu.cn/apache/tomcat/tomcat-8/v8.5.28/bin/apache-tomcat-8.5.28.tar.gz
@@ -26,27 +26,27 @@ cd /opt/tomcat
 tar zxvf apache-tomcat-8.5.28.tar.gz
 ```
 
-## å¯åŠ¨
+## Æô¶¯
 
-**å¯åŠ¨ tomcat æœåŠ¡**
+**Æô¶¯ tomcat ·şÎñ**
 
 ```
 cd /opt/tomcat/apache-tomcat-8.5.28/bin
 ./catalina.sh start
 ```
 
-**åœæ­¢ tomcat æœåŠ¡**
+**Í£Ö¹ tomcat ·şÎñ**
 
 ```
 cd /opt/tomcat/apache-tomcat-8.5.28/bin
 ./catalina.sh stop
 ```
 
-## è„šæœ¬
+## ½Å±¾
 
-| [å®‰è£…è„šæœ¬](https://github.com/dunwu/linux-tutorial/tree/master/codes/linux/soft) |
+| [°²×°½Å±¾](https://github.com/dunwu/linux-tutorial/tree/master/codes/linux/soft) |
 
-## æ›´å¤šå†…å®¹
+## ¸ü¶àÄÚÈİ
 
-- **å¼•ç”³**
-  - [æ“ä½œç³»ç»Ÿã€è¿ç»´éƒ¨ç½²æ€»ç»“ç³»åˆ—](https://github.com/dunwu/OS)
+- **ÒıÉê**
+  - [²Ù×÷ÏµÍ³¡¢ÔËÎ¬²¿Êğ×Ü½áÏµÁĞ](https://github.com/dunwu/OS)

@@ -1,129 +1,129 @@
 ---
-title: ç¨‹åºå‘˜ç©è½¬ Windows
+title: ³ÌĞòÔ±Íæ×ª Windows
 categories: ['os']
 tags: ['os', 'windows']
 date: 2019-03-22 15:53
 ---
 
-# ç¨‹åºå‘˜ç©è½¬ Windows
+# ³ÌĞòÔ±Íæ×ª Windows
 
 <!-- TOC depthFrom:2 depthTo:3 -->
 
-- [è½¯ä»¶](#è½¯ä»¶)
-    - [è§†é¢‘éŸ³é¢‘](#è§†é¢‘éŸ³é¢‘)
-    - [å‹ç¼©](#å‹ç¼©)
-    - [æ–‡ä»¶ç®¡ç†](#æ–‡ä»¶ç®¡ç†)
-    - [å¼€å‘](#å¼€å‘)
-    - [ç¼–è¾‘å™¨](#ç¼–è¾‘å™¨)
-    - [æ–‡æ¡£](#æ–‡æ¡£)
-    - [æ•ˆç‡æå‡](#æ•ˆç‡æå‡)
-    - [åŠå…¬](#åŠå…¬)
-    - [ä¸ªæ€§åŒ–](#ä¸ªæ€§åŒ–)
-- [å‚è€ƒèµ„æ–™](#å‚è€ƒèµ„æ–™)
+- [Èí¼ş](#Èí¼ş)
+    - [ÊÓÆµÒôÆµ](#ÊÓÆµÒôÆµ)
+    - [Ñ¹Ëõ](#Ñ¹Ëõ)
+    - [ÎÄ¼ş¹ÜÀí](#ÎÄ¼ş¹ÜÀí)
+    - [¿ª·¢](#¿ª·¢)
+    - [±à¼­Æ÷](#±à¼­Æ÷)
+    - [ÎÄµµ](#ÎÄµµ)
+    - [Ğ§ÂÊÌáÉı](#Ğ§ÂÊÌáÉı)
+    - [°ì¹«](#°ì¹«)
+    - [¸öĞÔ»¯](#¸öĞÔ»¯)
+- [²Î¿¼×ÊÁÏ](#²Î¿¼×ÊÁÏ)
 
 <!-- /TOC -->
 
-## è½¯ä»¶
+## Èí¼ş
 
-> æ‰©å±•é˜…è¯»ï¼š
+> À©Õ¹ÔÄ¶Á£º
 >
 > - [Awesome Windows](https://github.com/Awesome-Windows/Awesome/blob/master/README-cn.md)
 > - [best-windows-apps](https://github.com/stackia/best-windows-apps)
 
-### è§†é¢‘éŸ³é¢‘
+### ÊÓÆµÒôÆµ
 
-- [Musicbee](http://getmusicbee.com/) - ç±»ä¼¼ iTunesï¼Œä½†æ¯” iTunes æ›´å¥½ç”¨ã€‚
-- [ScreenToGif](http://www.screentogif.com/) - å®ƒå…è®¸ä½ å½•åˆ¶å±å¹•çš„ä¸€éƒ¨åˆ†åŒºåŸŸå¹¶ä¿å­˜ä¸º gif æˆ–è§†é¢‘ã€‚
-- [PotPlayer](http://potplayer.daum.net/) - å¤šåª’ä½“æ’­æ”¾å™¨ï¼Œå…·æœ‰å¹¿æ³›çš„ç¼–è§£ç å™¨é›†åˆï¼Œå®ƒè¿˜ä¸ºç”¨æˆ·æä¾›å¤§é‡é…ç½®é€‰é¡¹ã€‚
-- [å°„æ‰‹å½±éŸ³æ’­æ”¾å™¨](http://www.splayer.org/) - æ¥è‡ªå°„æ‰‹ç½‘ï¼Œå°å·§å¼€æºï¼Œé¦–åˆ›è‡ªåŠ¨åŒ¹é…å­—å¹•åŠŸèƒ½ã€‚
+- [Musicbee](http://getmusicbee.com/) - ÀàËÆ iTunes£¬µ«±È iTunes ¸üºÃÓÃ¡£
+- [ScreenToGif](http://www.screentogif.com/) - ËüÔÊĞíÄãÂ¼ÖÆÆÁÄ»µÄÒ»²¿·ÖÇøÓò²¢±£´æÎª gif »òÊÓÆµ¡£
+- [PotPlayer](http://potplayer.daum.net/) - ¶àÃ½Ìå²¥·ÅÆ÷£¬¾ßÓĞ¹ã·ºµÄ±à½âÂëÆ÷¼¯ºÏ£¬Ëü»¹ÎªÓÃ»§Ìá¹©´óÁ¿ÅäÖÃÑ¡Ïî¡£
+- [ÉäÊÖÓ°Òô²¥·ÅÆ÷](http://www.splayer.org/) - À´×ÔÉäÊÖÍø£¬Ğ¡ÇÉ¿ªÔ´£¬Ê×´´×Ô¶¯Æ¥Åä×ÖÄ»¹¦ÄÜ¡£
 
-### å‹ç¼©
+### Ñ¹Ëõ
 
-- [7-Zip](http://www.7-zip.org/) - ç”¨äºå¤„ç†å‹ç¼©åŒ…çš„å¼€æº Windows å®ç”¨ç¨‹åºã€‚å®Œç¾æ”¯æŒ 7zï¼ŒZIPï¼ŒGZIPï¼ŒBZIP2 å’Œ TAR çš„å…¨éƒ¨ç‰¹æ€§ï¼Œå…¶ä»–æ ¼å¼ä¹Ÿå¯è§£å‹ç¼©ã€‚
-- [WinRAR](http://www.rarlab.com/) - å¼ºå¤§çš„å½’æ¡£ç®¡ç†å™¨ã€‚ å®ƒå¯ä»¥å¤‡ä»½æ‚¨çš„æ•°æ®å¹¶å‡å°ç”µå­é‚®ä»¶é™„ä»¶çš„å¤§å°ï¼Œè§£å‹ç¼© RARï¼ŒZIP å’Œå…¶ä»–æ–‡ä»¶ã€‚
+- [7-Zip](http://www.7-zip.org/) - ÓÃÓÚ´¦ÀíÑ¹Ëõ°üµÄ¿ªÔ´ Windows ÊµÓÃ³ÌĞò¡£ÍêÃÀÖ§³Ö 7z£¬ZIP£¬GZIP£¬BZIP2 ºÍ TAR µÄÈ«²¿ÌØĞÔ£¬ÆäËû¸ñÊ½Ò²¿É½âÑ¹Ëõ¡£
+- [WinRAR](http://www.rarlab.com/) - Ç¿´óµÄ¹éµµ¹ÜÀíÆ÷¡£ Ëü¿ÉÒÔ±¸·İÄúµÄÊı¾İ²¢¼õĞ¡µç×ÓÓÊ¼ş¸½¼şµÄ´óĞ¡£¬½âÑ¹Ëõ RAR£¬ZIP ºÍÆäËûÎÄ¼ş¡£
 
-### æ–‡ä»¶ç®¡ç†
+### ÎÄ¼ş¹ÜÀí
 
-- [Clover](http://en.ejie.me/) - ä¸ºèµ„æºç®¡ç†å™¨åŠ ä¸Šå¤šæ ‡ç­¾åŠŸèƒ½ã€‚
-- [Total Commander](http://www.ghisler.com/) - è€ç‰Œã€åŠŸèƒ½å¼‚å¸¸å¼ºå¤§çš„æ–‡ä»¶ç®¡ç†å¢å¼ºè½¯ä»¶ã€‚
-- [Q-Dir](http://www.softwareok.com/?seite=Freeware/Q-Dir) - è½»é‡çº§çš„æ–‡ä»¶ç®¡ç†å™¨ï¼Œå„ç§å¸ƒå±€è§†å›¾åˆ‡æ¢çµæ´»ï¼Œé»˜è®¤å››ä¸ªå°çª—å£ç»„æˆä¸€ä¸ªå¤§çª—å£ï¼Œæ“ä½œå¿«æ·ã€‚è½¯ä»¶è™½å°ï¼Œç²‰ä¸å¿ è¯šã€‚
-- [WoX](https://github.com/Wox-launcher/Wox) - æ–°ä¸€ä»£æ–‡ä»¶å®šä½å·¥å…·ï¼Œå ªç§° Windows ä¸Šçš„ Alfredã€‚
-- [Everything](http://www.voidtools.com/) - æœ€å¿«çš„æ–‡ä»¶/æ–‡ä»¶å¤¹æœç´¢å·¥å…·ï¼Œ é€šè¿‡åç§°æœç´¢ã€‚
-- [Listary](http://www.listary.com/) - éå¸¸ä¼˜ç§€çš„ Windows æ–‡ä»¶æµè§ˆå’Œæœç´¢å¢å¼ºå·¥å…·ã€‚
-- Beyond Compare - å¥½ç”¨åˆä¸‡èƒ½çš„æ–‡ä»¶å¯¹æ¯”å·¥å…·ã€‚
-- [CCleaner](https://www.piriform.com/ccleaner/download) - å¦‚æœä½ æœ‰ç³»ç»Ÿæ´ç™–ï¼Œé‚£ä¸€å®šè¦é€‰æ‹©ä¸€æ¬¾å¹²å‡€ã€è‰¯å¿ƒã€è€ç‰Œçš„æ¸…æ´è½¯ä»¶ã€‚
-- [chocolatey](https://chocolatey.org/) - åŒ…ç®¡ç†å™¨
-- [Ninite](https://ninite.com/) - æœ€ç®€å•ï¼Œæœ€å¿«é€Ÿçš„æ›´æ–°æˆ–å®‰è£…è½¯ä»¶çš„æ–¹å¼ã€‚
-- [Recuva](http://www.piriform.com/RECUVA) - æ¥è‡ª piriform æ¢¨å­å…¬å¸äº§å“ï¼Œå…è´¹çš„æ•°æ®æ¢å¤å·¥å…·ã€‚
-- [Launchy](http://www.launchy.net/)ï¼šè‡ªç”±çš„è·¨å¹³å°å·¥å…·ï¼Œå¸®åŠ©ä½ å¿˜è®°å¼€å§‹èœå•ã€æ¡Œé¢å›¾æ ‡ç”šè‡³æ–‡ä»¶ç®¡ç†å™¨ã€‚
+- [Clover](http://en.ejie.me/) - Îª×ÊÔ´¹ÜÀíÆ÷¼ÓÉÏ¶à±êÇ©¹¦ÄÜ¡£
+- [Total Commander](http://www.ghisler.com/) - ÀÏÅÆ¡¢¹¦ÄÜÒì³£Ç¿´óµÄÎÄ¼ş¹ÜÀíÔöÇ¿Èí¼ş¡£
+- [Q-Dir](http://www.softwareok.com/?seite=Freeware/Q-Dir) - ÇáÁ¿¼¶µÄÎÄ¼ş¹ÜÀíÆ÷£¬¸÷ÖÖ²¼¾ÖÊÓÍ¼ÇĞ»»Áé»î£¬Ä¬ÈÏËÄ¸öĞ¡´°¿Ú×é³ÉÒ»¸ö´ó´°¿Ú£¬²Ù×÷¿ì½İ¡£Èí¼şËäĞ¡£¬·ÛË¿ÖÒ³Ï¡£
+- [WoX](https://github.com/Wox-launcher/Wox) - ĞÂÒ»´úÎÄ¼ş¶¨Î»¹¤¾ß£¬¿°³Æ Windows ÉÏµÄ Alfred¡£
+- [Everything](http://www.voidtools.com/) - ×î¿ìµÄÎÄ¼ş/ÎÄ¼ş¼ĞËÑË÷¹¤¾ß£¬ Í¨¹ıÃû³ÆËÑË÷¡£
+- [Listary](http://www.listary.com/) - ·Ç³£ÓÅĞãµÄ Windows ÎÄ¼şä¯ÀÀºÍËÑË÷ÔöÇ¿¹¤¾ß¡£
+- Beyond Compare - ºÃÓÃÓÖÍòÄÜµÄÎÄ¼ş¶Ô±È¹¤¾ß¡£
+- [CCleaner](https://www.piriform.com/ccleaner/download) - Èç¹ûÄãÓĞÏµÍ³½àñ±£¬ÄÇÒ»¶¨ÒªÑ¡ÔñÒ»¿î¸É¾»¡¢Á¼ĞÄ¡¢ÀÏÅÆµÄÇå½àÈí¼ş¡£
+- [chocolatey](https://chocolatey.org/) - °ü¹ÜÀíÆ÷
+- [Ninite](https://ninite.com/) - ×î¼òµ¥£¬×î¿ìËÙµÄ¸üĞÂ»ò°²×°Èí¼şµÄ·½Ê½¡£
+- [Recuva](http://www.piriform.com/RECUVA) - À´×Ô piriform Àæ×Ó¹«Ë¾²úÆ·£¬Ãâ·ÑµÄÊı¾İ»Ö¸´¹¤¾ß¡£
+- [Launchy](http://www.launchy.net/)£º×ÔÓÉµÄ¿çÆ½Ì¨¹¤¾ß£¬°ïÖúÄãÍü¼Ç¿ªÊ¼²Ëµ¥¡¢×ÀÃæÍ¼±êÉõÖÁÎÄ¼ş¹ÜÀíÆ÷¡£
 
-### å¼€å‘
+### ¿ª·¢
 
-- [Fiddler](http://www.telerik.com/fiddler) - web è°ƒè¯•ä»£ç†å·¥å…·ã€‚
-- [Postman](https://www.getpostman.com/postman) - é€‚åˆ API å¼€å‘çš„å®Œæ•´å·¥å…·é“¾ï¼Œæœ€å¸¸ç”¨çš„ REST å®¢æˆ·ç«¯ã€‚
-- [SourceTree](https://www.sourcetreeapp.com/) - ä¸€ä¸ªå…è´¹çš„ Git & Mercurial å®¢æˆ·ç«¯ã€‚
-- [TortoiseSVN](https://tortoisesvn.net/) - Subversion(SVN)çš„å›¾å½¢å®¢æˆ·ç«¯
-- [Wireshark](https://www.wireshark.org/) - ä¸€ä¸ªç½‘ç»œåè®®åˆ†æå·¥å…·ã€‚
+- [Fiddler](http://www.telerik.com/fiddler) - web µ÷ÊÔ´úÀí¹¤¾ß¡£
+- [Postman](https://www.getpostman.com/postman) - ÊÊºÏ API ¿ª·¢µÄÍêÕû¹¤¾ßÁ´£¬×î³£ÓÃµÄ REST ¿Í»§¶Ë¡£
+- [SourceTree](https://www.sourcetreeapp.com/) - Ò»¸öÃâ·ÑµÄ Git & Mercurial ¿Í»§¶Ë¡£
+- [TortoiseSVN](https://tortoisesvn.net/) - Subversion(SVN)µÄÍ¼ĞÎ¿Í»§¶Ë
+- [Wireshark](https://www.wireshark.org/) - Ò»¸öÍøÂçĞ­Òé·ÖÎö¹¤¾ß¡£
 - Switchhosts
-- [Cmder](https://github.com/cmderdev/cmder) - æ§åˆ¶å°æ¨¡æ‹Ÿå™¨åŒ…ã€‚æ‰©å±•é˜…è¯»ï¼š[Win ä¸‹å¿…å¤‡ç¥å™¨ä¹‹ Cmder](https://www.jeffjade.com/2016/01/13/2016-01-13-windows-software-cmder/)
-- [Babun](http://babun.github.io/) - åŸºäº Cygwinï¼Œç”¨äºæ›¿ä»£ Windows shellã€‚
+- [Cmder](https://github.com/cmderdev/cmder) - ¿ØÖÆÌ¨Ä£ÄâÆ÷°ü¡£À©Õ¹ÔÄ¶Á£º[Win ÏÂ±Ø±¸ÉñÆ÷Ö® Cmder](https://www.jeffjade.com/2016/01/13/2016-01-13-windows-software-cmder/)
+- [Babun](http://babun.github.io/) - »ùÓÚ Cygwin£¬ÓÃÓÚÌæ´ú Windows shell¡£
 
-### ç¼–è¾‘å™¨
+### ±à¼­Æ÷
 
-- [JetBrain IDE ç³»åˆ—](http://www.jetbrains.com/) - çœŸé¦™ï¼
-- [Visual Studio Code](https://code.visualstudio.com/) - ç”¨äºæ„å»ºå’Œè°ƒè¯•ç°ä»£ Web å’Œäº‘åº”ç”¨ç¨‹åºã€‚
-- [Eclipse](https://eclipse.org/downloads/) - ä¸€æ¬¾åŠŸèƒ½å¼ºå¤§çš„ IDEã€‚
-- [Visual Studio](https://www.visualstudio.com/vs/) - å¾®è½¯å®˜æ–¹çš„ IDEï¼Œé€šè¿‡æ’ä»¶å¯æ”¯æŒå¤§é‡ç¼–ç¨‹è¯­è¨€ã€‚
-- [NetBeans IDE](https://netbeans.org/) - å…è´¹å¼€æºçš„ IDEã€‚
-- [Typora](https://www.typora.io/) - ä¸ªäººè§‰å¾—æœ€å¥½ç”¨çš„ Markdown ç¼–è¾‘å™¨ã€‚
-- [Cmd Markdown](https://www.zybuluo.com/cmd/) - è·¨å¹³å°ä¼˜ç§€ Markdown ç¼–è¾‘å™¨ï¼Œæœ¬æ–‡å³ç”¨å…¶æ‰€å†™ã€‚
-- [Notepad++](https://notepad-plus-plus.org/) - ä¸€æ¬¾æ”¯æŒå¤šç§ç¼–ç¨‹è¯­è¨€çš„æºç ç¼–è¾‘å™¨ã€‚
-- [Notepad2](http://www.flos-freeware.ch/notepad2.html) - ç”¨äºæ›¿ä»£é»˜è®¤æ–‡æœ¬ç¼–è¾‘å™¨çš„è½»é‡å¿«é€Ÿçš„ç¼–è¾‘å™¨ï¼Œæ‹¥æœ‰ä¼—å¤šæœ‰ç”¨çš„åŠŸèƒ½ã€‚
-- [Sublime Text 3](http://www.sublimetext.com/3) - é«˜çº§æ–‡æœ¬ç¼–è¾‘å™¨ã€‚
-- [Atom](https://atom.io/) - é¢å‘ 21 ä¸–çºªçš„æå®¢æ–‡æœ¬ç¼–è¾‘å™¨ã€‚
+- [JetBrain IDE ÏµÁĞ](http://www.jetbrains.com/) - ÕæÏã£¡
+- [Visual Studio Code](https://code.visualstudio.com/) - ÓÃÓÚ¹¹½¨ºÍµ÷ÊÔÏÖ´ú Web ºÍÔÆÓ¦ÓÃ³ÌĞò¡£
+- [Eclipse](https://eclipse.org/downloads/) - Ò»¿î¹¦ÄÜÇ¿´óµÄ IDE¡£
+- [Visual Studio](https://www.visualstudio.com/vs/) - Î¢Èí¹Ù·½µÄ IDE£¬Í¨¹ı²å¼ş¿ÉÖ§³Ö´óÁ¿±à³ÌÓïÑÔ¡£
+- [NetBeans IDE](https://netbeans.org/) - Ãâ·Ñ¿ªÔ´µÄ IDE¡£
+- [Typora](https://www.typora.io/) - ¸öÈË¾õµÃ×îºÃÓÃµÄ Markdown ±à¼­Æ÷¡£
+- [Cmd Markdown](https://www.zybuluo.com/cmd/) - ¿çÆ½Ì¨ÓÅĞã Markdown ±à¼­Æ÷£¬±¾ÎÄ¼´ÓÃÆäËùĞ´¡£
+- [Notepad++](https://notepad-plus-plus.org/) - Ò»¿îÖ§³Ö¶àÖÖ±à³ÌÓïÑÔµÄÔ´Âë±à¼­Æ÷¡£
+- [Notepad2](http://www.flos-freeware.ch/notepad2.html) - ÓÃÓÚÌæ´úÄ¬ÈÏÎÄ±¾±à¼­Æ÷µÄÇáÁ¿¿ìËÙµÄ±à¼­Æ÷£¬ÓµÓĞÖÚ¶àÓĞÓÃµÄ¹¦ÄÜ¡£
+- [Sublime Text 3](http://www.sublimetext.com/3) - ¸ß¼¶ÎÄ±¾±à¼­Æ÷¡£
+- [Atom](https://atom.io/) - ÃæÏò 21 ÊÀ¼ÍµÄ¼«¿ÍÎÄ±¾±à¼­Æ÷¡£
 
-### æ–‡æ¡£
+### ÎÄµµ
 
-- [Microsoft Office](http://www.office.com/) - å¾®è½¯åŠå…¬è½¯ä»¶ã€‚
-- [WPS Office](https://www.wps.com/office-free) - é‡‘å±±å…è´¹åŠå…¬è½¯ä»¶ã€‚
-- [Calibre](http://calibre-ebook.com/) - ç”¨äºç”µå­ä¹¦ç®¡ç†å’Œè½¬æ¢çš„å¼ºå¤§è½¯ä»¶ã€‚
-- [ç¦æ˜•é˜…è¯»å™¨](http://www.foxitsoftware.cn/products/reader/) - åœ¨å…¨çƒæ‹¥æœ‰å¤§é‡ç”¨æˆ·ï¼Œæœ€ä¼˜ç§€çš„å›½äº§è½¯ä»¶ä¹‹ä¸€ã€‚Ribbon ç•Œé¢ï¼Œæ”¯æŒæ‰‹å†™ç­¾åã€æ’å…¥å°ç« ç­‰ã€‚
+- [Microsoft Office](http://www.office.com/) - Î¢Èí°ì¹«Èí¼ş¡£
+- [WPS Office](https://www.wps.com/office-free) - ½ğÉ½Ãâ·Ñ°ì¹«Èí¼ş¡£
+- [Calibre](http://calibre-ebook.com/) - ÓÃÓÚµç×ÓÊé¹ÜÀíºÍ×ª»»µÄÇ¿´óÈí¼ş¡£
+- [¸£ê¿ÔÄ¶ÁÆ÷](http://www.foxitsoftware.cn/products/reader/) - ÔÚÈ«ÇòÓµÓĞ´óÁ¿ÓÃ»§£¬×îÓÅĞãµÄ¹ú²úÈí¼şÖ®Ò»¡£Ribbon ½çÃæ£¬Ö§³ÖÊÖĞ´Ç©Ãû¡¢²åÈëÓ¡ÕÂµÈ¡£
 
-### æ•ˆç‡æå‡
+### Ğ§ÂÊÌáÉı
 
-**ã€ç¬”è®°ã€‘**
+**¡¾±Ê¼Ç¡¿**
 
-- [XMind](http://www.xmind.net/) - ä¼˜ç§€çš„æ€ç»´å¯¼å›¾ã€‚
-- [OneNote](https://www.onenote.com/) - Windows ä¸‹ç»¼åˆè¯„ä»·éå¸¸é«˜çš„ç¬”è®°åº”ç”¨ã€‚
-- [å°è±¡ç¬”è®°](http://www.yinxiang.com/) - è€ç‰Œè·¨å¹³å°ç¬”è®°å·¥å…·ï¼Œå›½é™…ç‰ˆ Evernoteã€‚ä¸€å®¶ç«‹å¿—äºåšç™¾å¹´å…¬å¸çš„ä¼ä¸šï¼Œå®‰å…¨ã€å¯é ã€‚
-- [ä¸ºçŸ¥ç¬”è®°](http://www.wiz.cn/index.html) - è¶Šæ¥è¶Šå¥½çš„ç¬”è®°åº”ç”¨ï¼Œè®°å½•ã€æŸ¥é˜…ä¸€åˆ‡æœ‰ä»·å€¼çš„ä¿¡æ¯ï¼ŒåŒæ ·è·¨å¹³å°æ”¯æŒã€‚
-- [æœ‰é“äº‘ç¬”è®°](http://note.youdao.com/) - ç½‘æ˜“æ——ä¸‹ç¬”è®°å·¥å…·ï¼ŒåŒæ ·è·¨ä¸»æµå¹³å°æ”¯æŒï¼Œæ–‡å­—ã€æ‰‹å†™ã€å½•éŸ³ã€æ‹ç…§å¤šç§è®°å½•æ–¹å¼ï¼Œæ”¯æŒä»»æ„é™„ä»¶æ ¼å¼ã€‚
-- [ShareX](https://getsharex.com/) - ä½ è¦çš„æ‰€æœ‰ä¸æˆªå›¾ã€å½•å±ç›¸å…³çš„åŠŸèƒ½ï¼Œè¿™é‡Œéƒ½æœ‰äº†ã€‚
+- [XMind](http://www.xmind.net/) - ÓÅĞãµÄË¼Î¬µ¼Í¼¡£
+- [OneNote](https://www.onenote.com/) - Windows ÏÂ×ÛºÏÆÀ¼Û·Ç³£¸ßµÄ±Ê¼ÇÓ¦ÓÃ¡£
+- [Ó¡Ïó±Ê¼Ç](http://www.yinxiang.com/) - ÀÏÅÆ¿çÆ½Ì¨±Ê¼Ç¹¤¾ß£¬¹ú¼Ê°æ Evernote¡£Ò»¼ÒÁ¢Ö¾ÓÚ×ö°ÙÄê¹«Ë¾µÄÆóÒµ£¬°²È«¡¢¿É¿¿¡£
+- [ÎªÖª±Ê¼Ç](http://www.wiz.cn/index.html) - Ô½À´Ô½ºÃµÄ±Ê¼ÇÓ¦ÓÃ£¬¼ÇÂ¼¡¢²éÔÄÒ»ÇĞÓĞ¼ÛÖµµÄĞÅÏ¢£¬Í¬Ñù¿çÆ½Ì¨Ö§³Ö¡£
+- [ÓĞµÀÔÆ±Ê¼Ç](http://note.youdao.com/) - ÍøÒ×ÆìÏÂ±Ê¼Ç¹¤¾ß£¬Í¬Ñù¿çÖ÷Á÷Æ½Ì¨Ö§³Ö£¬ÎÄ×Ö¡¢ÊÖĞ´¡¢Â¼Òô¡¢ÅÄÕÕ¶àÖÖ¼ÇÂ¼·½Ê½£¬Ö§³ÖÈÎÒâ¸½¼ş¸ñÊ½¡£
+- [ShareX](https://getsharex.com/) - ÄãÒªµÄËùÓĞÓë½ØÍ¼¡¢Â¼ÆÁÏà¹ØµÄ¹¦ÄÜ£¬ÕâÀï¶¼ÓĞÁË¡£
 
-ã€å¿«æ·é”®ã€‘
+¡¾¿ì½İ¼ü¡¿
 
-- [AutoHotkey](https://autohotkey.com/) - Windows å¹³å°çš„ç»ˆæè‡ªåŠ¨åŒ–è„šæœ¬è¯­è¨€ã€‚
+- [AutoHotkey](https://autohotkey.com/) - Windows Æ½Ì¨µÄÖÕ¼«×Ô¶¯»¯½Å±¾ÓïÑÔ¡£
 
-> æŠ€å·§ï¼š
+> ¼¼ÇÉ£º
 >
 > - https://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/
 > - https://www.autohotkey.com/boards/viewtopic.php?f=29&t=4296
 
-### åŠå…¬
+### °ì¹«
 
-- [æœ‰é“è¯å…¸](http://cidian.youdao.com/index.html) - æœ€å¥½ç”¨çš„å…è´¹å…¨èƒ½ç¿»è¯‘è½¯ä»¶ã€‚
-- [Outlook](http://office.microsoft.com/zh-cn/outlook/) - å¤§åé¼é¼çš„ Microsoft Office ç»„ä»¶ä¹‹ä¸€ï¼Œé™¤äº†ç”µå­é‚®ä»¶ï¼Œè¿˜åŒ…å«äº†æ—¥å†ã€ä»»åŠ¡ç®¡ç†ã€è”ç³»äººã€è®°äº‹æœ¬ç­‰åŠŸèƒ½ã€‚
-- [Gmail](http://www.gmail.com/) - åŠŸèƒ½ä¸Šå¯ä»¥ç§°ä¸ºä¸šç•Œæ ‡æ†ï¼Œç”¨æˆ·æ•°é‡ä¸–ç•Œç¬¬ä¸€ï¼Œæˆ–è®¸ä½ çœŸçš„æ‰¾ä¸åˆ°æ¯”å®ƒæ›´å¥½çš„é‚®ä»¶ç³»ç»Ÿã€‚
-- [Chrome](https://www.google.com/intl/zh-CN/chrome/browser/) - æœ€å¥½çš„æµè§ˆå™¨ã€‚
-- [Teamviewer](http://www.teamviewer.com/Zhcn/index.aspx) - ä¸“ä¸šã€åŠŸèƒ½å¼ºå¤§çš„è¿œç¨‹æ§åˆ¶è½¯ä»¶ã€‚ä½¿ç”¨ç®€å•ï¼Œå¯¹ä¸ªäººç”¨æˆ·å…è´¹ã€‚
+- [ÓĞµÀ´Êµä](http://cidian.youdao.com/index.html) - ×îºÃÓÃµÄÃâ·ÑÈ«ÄÜ·­ÒëÈí¼ş¡£
+- [Outlook](http://office.microsoft.com/zh-cn/outlook/) - ´óÃû¶¦¶¦µÄ Microsoft Office ×é¼şÖ®Ò»£¬³ıÁËµç×ÓÓÊ¼ş£¬»¹°üº¬ÁËÈÕÀú¡¢ÈÎÎñ¹ÜÀí¡¢ÁªÏµÈË¡¢¼ÇÊÂ±¾µÈ¹¦ÄÜ¡£
+- [Gmail](http://www.gmail.com/) - ¹¦ÄÜÉÏ¿ÉÒÔ³ÆÎªÒµ½ç±ê¸Ë£¬ÓÃ»§ÊıÁ¿ÊÀ½çµÚÒ»£¬»òĞíÄãÕæµÄÕÒ²»µ½±ÈËü¸üºÃµÄÓÊ¼şÏµÍ³¡£
+- [Chrome](https://www.google.com/intl/zh-CN/chrome/browser/) - ×îºÃµÄä¯ÀÀÆ÷¡£
+- [Teamviewer](http://www.teamviewer.com/Zhcn/index.aspx) - ×¨Òµ¡¢¹¦ÄÜÇ¿´óµÄÔ¶³Ì¿ØÖÆÈí¼ş¡£Ê¹ÓÃ¼òµ¥£¬¶Ô¸öÈËÓÃ»§Ãâ·Ñ¡£
 
-### ä¸ªæ€§åŒ–
+### ¸öĞÔ»¯
 
-- [TranslucentTB](https://github.com/TranslucentTB/TranslucentTB) - é€æ˜åŒ–ä½ çš„ Windows ä»»åŠ¡æ ã€‚
-- [QTTabBar](http://qttabbar.wikidot.com/) - é€šè¿‡å¤šæ ‡ç­¾å’Œé¢å¤–çš„æ–‡ä»¶å¤¹è§†å›¾æ‰©å±•èµ„æºç®¡ç†å™¨çš„åŠŸèƒ½ã€‚
-- [Fences](https://www.stardock.com/products/fences/) - ç®¡ç†æ¡Œé¢å¿«æ·æ–¹å¼ã€‚
+- [TranslucentTB](https://github.com/TranslucentTB/TranslucentTB) - Í¸Ã÷»¯ÄãµÄ Windows ÈÎÎñÀ¸¡£
+- [QTTabBar](http://qttabbar.wikidot.com/) - Í¨¹ı¶à±êÇ©ºÍ¶îÍâµÄÎÄ¼ş¼ĞÊÓÍ¼À©Õ¹×ÊÔ´¹ÜÀíÆ÷µÄ¹¦ÄÜ¡£
+- [Fences](https://www.stardock.com/products/fences/) - ¹ÜÀí×ÀÃæ¿ì½İ·½Ê½¡£
 
-## å‚è€ƒèµ„æ–™
+## ²Î¿¼×ÊÁÏ
 
 - https://github.com/Awesome-Windows/Awesome/blob/master/README-cn.md
 - https://love.appinn.com/

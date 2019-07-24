@@ -1,24 +1,24 @@
-# Redis å®‰è£…
+# Redis °²×°
 
 <!-- TOC depthFrom:2 depthTo:3 -->
 
-- [å®‰è£…](#å®‰è£…)
-- [å¯åŠ¨](#å¯åŠ¨)
-- [è„šæœ¬](#è„šæœ¬)
+- [°²×°](#°²×°)
+- [Æô¶¯](#Æô¶¯)
+- [½Å±¾](#½Å±¾)
 
 <!-- /TOC -->
 
-## å®‰è£…
+## °²×°
 
-å®‰è£…æ­¥éª¤å¦‚ä¸‹ï¼š
+°²×°²½ÖèÈçÏÂ£º
 
-ï¼ˆ1ï¼‰ä¸‹è½½å¹¶è§£å‹åˆ°æœ¬åœ°
+£¨1£©ÏÂÔØ²¢½âÑ¹µ½±¾µØ
 
-è¿›å…¥å®˜ç½‘ä¸‹è½½åœ°å€ï¼šhttps://redis.io/download ï¼Œé€‰æ‹©åˆé€‚çš„ç‰ˆæœ¬ä¸‹è½½ã€‚
+½øÈë¹ÙÍøÏÂÔØµØÖ·£ºhttps://redis.io/download £¬Ñ¡ÔñºÏÊÊµÄ°æ±¾ÏÂÔØ¡£
 
-æˆ‘é€‰æ‹©çš„æ˜¯æœ€æ–°ç¨³å®šç‰ˆæœ¬ 4.0.8ï¼šhttp://download.redis.io/releases/redis-4.0.8.tar.gz
+ÎÒÑ¡ÔñµÄÊÇ×îĞÂÎÈ¶¨°æ±¾ 4.0.8£ºhttp://download.redis.io/releases/redis-4.0.8.tar.gz
 
-æˆ‘ä¸ªäººå–œæ¬¢å­˜æ”¾åœ¨ï¼š`/opt/redis`
+ÎÒ¸öÈËÏ²»¶´æ·ÅÔÚ£º`/opt/redis`
 
 ```
 wget -O /opt/redis/redis-4.0.8.tar.gz http://download.redis.io/releases/redis-4.0.8.tar.gz
@@ -26,33 +26,33 @@ cd /opt/redis
 tar zxvf redis-4.0.8.tar.gz
 ```
 
-ï¼ˆ2ï¼‰ç¼–è¯‘å®‰è£…
+£¨2£©±àÒë°²×°
 
-æ‰§è¡Œä»¥ä¸‹å‘½ä»¤ï¼š
+Ö´ĞĞÒÔÏÂÃüÁî£º
 
 ```
 cd /opt/redis/redis-4.0.8
 make
 ```
 
-## å¯åŠ¨
+## Æô¶¯
 
-**å¯åŠ¨ redis æœåŠ¡**
+**Æô¶¯ redis ·şÎñ**
 
 ```
 cd /opt/redis/redis-4.0.8/src
 ./redis-server
 ```
 
-**å¯åŠ¨ redis å®¢æˆ·ç«¯**
+**Æô¶¯ redis ¿Í»§¶Ë**
 
 ```
 cd /opt/redis/redis-4.0.8/src
 ./redis-cli
 ```
 
-## è„šæœ¬
+## ½Å±¾
 
-ä»¥ä¸Šä¸¤ç§å®‰è£…æ–¹å¼ï¼Œæˆ‘éƒ½å†™äº†è„šæœ¬å»æ‰§è¡Œï¼š
+ÒÔÉÏÁ½ÖÖ°²×°·½Ê½£¬ÎÒ¶¼Ğ´ÁË½Å±¾È¥Ö´ĞĞ£º
 
-| [å®‰è£…è„šæœ¬](https://github.com/dunwu/linux-tutorial/tree/master/codes/linux/soft) |
+| [°²×°½Å±¾](https://github.com/dunwu/linux-tutorial/tree/master/codes/linux/soft) |

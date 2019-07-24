@@ -1,129 +1,129 @@
-# Linux æ•™ç¨‹
+# Linux ½Ì³Ì
 
-> :keyboard: é¡¹ç›®åŒæ­¥ç»´æŠ¤åœ¨ [github](https://github.com/dunwu/linux-tutorial) | [gitee](https://gitee.com/turnon/linux-tutorial)
+> :keyboard: ÏîÄ¿Í¬²½Î¬»¤ÔÚ [github](https://github.com/dunwu/linux-tutorial) | [gitee](https://gitee.com/turnon/linux-tutorial)
 >
-> :book: [ç”µå­ä¹¦](https://dunwu.github.io/linux-tutorial/) | [ç”µå­ä¹¦ï¼ˆå›½å†…ï¼‰](http://turnon.gitee.io/linux-tutorial/)
+> :book: [µç×ÓÊé](https://dunwu.github.io/linux-tutorial/) | [µç×ÓÊé£¨¹úÄÚ£©](http://turnon.gitee.io/linux-tutorial/)
 
 |       :wrench:        |        :shell:        |      :memo:       |        :books:        |
 | :-------------------: | :-------------------: | :---------------: | :-------------------: |
-| [è½¯ä»¶è¿ç»´](#è½¯ä»¶è¿ç»´) | [è¿ç»´è„šæœ¬](#è¿ç»´è„šæœ¬) | [çŸ¥è¯†ç‚¹](#çŸ¥è¯†ç‚¹) | [å­¦ä¹ èµ„æº](#å­¦ä¹ èµ„æº) |
+| [Èí¼şÔËÎ¬](#Èí¼şÔËÎ¬) | [ÔËÎ¬½Å±¾](#ÔËÎ¬½Å±¾) | [ÖªÊ¶µã](#ÖªÊ¶µã) | [Ñ§Ï°×ÊÔ´](#Ñ§Ï°×ÊÔ´) |
 
-## è½¯ä»¶è¿ç»´
+## Èí¼şÔËÎ¬
 
-> æœ¬ç« èŠ‚å†…å®¹ä»‹ç»æ—¥å¸¸å¼€å‘ä¸­å¸¸è§çš„ä¸€äº›è½¯ä»¶ã€å·¥å…·çš„å®‰è£…ã€é…ç½®ã€‚
+> ±¾ÕÂ½ÚÄÚÈİ½éÉÜÈÕ³£¿ª·¢ÖĞ³£¼ûµÄÒ»Ğ©Èí¼ş¡¢¹¤¾ßµÄ°²×°¡¢ÅäÖÃ¡£
 
-- å¼€å‘ç¯å¢ƒ
-  - [JDK å®‰è£…](linux/soft/jdk-install.md)
-  - [Maven å®‰è£…](linux/soft/maven-install.md)
-  - [Nodejs å®‰è£…](linux/soft/nodejs-install.md)
-- å¼€å‘å·¥å…·
-  - [Nexus è¿ç»´](linux/soft/nexus-install.md)
-  - [Gitlab è¿ç»´](linux/soft/kafka-install.md)
-  - [Jenkins è¿ç»´](linux/soft/jenkins.md)
-  - [Svn è¿ç»´](linux/soft/svn-ops.md)
-  - [YApi è¿ç»´](linux/soft/yapi-ops.md)
-- ä¸­é—´ä»¶æœåŠ¡
-  - [Elastic è¿ç»´](linux/soft/elastic)
-  - [Kafka è¿ç»´](linux/soft/kafka-install.md)
-  - [RocketMQ è¿ç»´](linux/soft/rocketmq-install.md)
-  - [Zookeeper è¿ç»´](linux/soft/zookeeper-install.md)
-  - [Nacos è¿ç»´](linux/soft/nacos-install.md)
-- æœåŠ¡å™¨
-  - [Nginx æ•™ç¨‹](https://github.com/dunwu/nginx-tutorial)
-  - [Tomcat è¿ç»´](linux/soft/tomcat-install.md)
-- æ•°æ®åº“
-  - [Mongodb è¿ç»´](linux/soft/mongodb-ops.md)
-  - [Redis è¿ç»´](linux/soft/redis-ops.md)
+- ¿ª·¢»·¾³
+  - [JDK °²×°](linux/soft/jdk-install.md)
+  - [Maven °²×°](linux/soft/maven-install.md)
+  - [Nodejs °²×°](linux/soft/nodejs-install.md)
+- ¿ª·¢¹¤¾ß
+  - [Nexus ÔËÎ¬](linux/soft/nexus-install.md)
+  - [Gitlab ÔËÎ¬](linux/soft/kafka-install.md)
+  - [Jenkins ÔËÎ¬](linux/soft/jenkins.md)
+  - [Svn ÔËÎ¬](linux/soft/svn-ops.md)
+  - [YApi ÔËÎ¬](linux/soft/yapi-ops.md)
+- ÖĞ¼ä¼ş·şÎñ
+  - [Elastic ÔËÎ¬](linux/soft/elastic)
+  - [Kafka ÔËÎ¬](linux/soft/kafka-install.md)
+  - [RocketMQ ÔËÎ¬](linux/soft/rocketmq-install.md)
+  - [Zookeeper ÔËÎ¬](linux/soft/zookeeper-install.md)
+  - [Nacos ÔËÎ¬](linux/soft/nacos-install.md)
+- ·şÎñÆ÷
+  - [Nginx ½Ì³Ì](https://github.com/dunwu/nginx-tutorial)
+  - [Tomcat ÔËÎ¬](linux/soft/tomcat-install.md)
+- Êı¾İ¿â
+  - [Mongodb ÔËÎ¬](linux/soft/mongodb-ops.md)
+  - [Redis ÔËÎ¬](linux/soft/redis-ops.md)
 
-## è¿ç»´è„šæœ¬
+## ÔËÎ¬½Å±¾
 
-- [ç³»ç»Ÿè¿ç»´è„šæœ¬é›†åˆ](https://github.com/dunwu/linux-tutorial/tree/master/codes/linux/sys)
-- [è½¯ä»¶è¿ç»´é…ç½®è„šæœ¬é›†åˆ](https://github.com/dunwu/linux-tutorial/tree/master/codes/linux/soft)
-- [å·¥å…·è„šæœ¬é›†åˆ](https://github.com/dunwu/linux-tutorial/tree/master/codes/linux/soft)
-- [Vim åº”ç”¨æŒ‡å—](linux/ops/vim.md)
-- [Zsh åº”ç”¨æŒ‡å—](linux/ops/zsh.md)
-- [Shell æ•™ç¨‹](linux/ops/shell.md)
-- [Python æ•™ç¨‹](linux/ops/python.md)
+- [ÏµÍ³ÔËÎ¬½Å±¾¼¯ºÏ](https://github.com/dunwu/linux-tutorial/tree/master/codes/linux/sys)
+- [Èí¼şÔËÎ¬ÅäÖÃ½Å±¾¼¯ºÏ](https://github.com/dunwu/linux-tutorial/tree/master/codes/linux/soft)
+- [¹¤¾ß½Å±¾¼¯ºÏ](https://github.com/dunwu/linux-tutorial/tree/master/codes/linux/soft)
+- [Vim Ó¦ÓÃÖ¸ÄÏ](linux/ops/vim.md)
+- [Zsh Ó¦ÓÃÖ¸ÄÏ](linux/ops/zsh.md)
+- [Shell ½Ì³Ì](linux/ops/shell.md)
+- [Python ½Ì³Ì](linux/ops/python.md)
 
-> æä¾›ä¸€é”®å¼è¿ç»´ã€é…ç½®è½¯ä»¶è„šæœ¬
+> Ìá¹©Ò»¼üÊ½ÔËÎ¬¡¢ÅäÖÃÈí¼ş½Å±¾
 
-## çŸ¥è¯†ç‚¹
+## ÖªÊ¶µã
 
 ### Linux
 
-- [Linux å‘½ä»¤æ•™ç¨‹](linux/cli/README.md)
-  - [æŸ¥çœ‹ Linux å‘½ä»¤å¸®åŠ©ä¿¡æ¯](linux/cli/æŸ¥çœ‹Linuxå‘½ä»¤å¸®åŠ©ä¿¡æ¯.md)
-  - [Linux æ–‡ä»¶ç›®å½•ç®¡ç†](linux/cli/Linuxæ–‡ä»¶ç›®å½•ç®¡ç†.md)
-  - [Linux æ–‡ä»¶å†…å®¹æŸ¥çœ‹å‘½ä»¤](linux/cli/Linuxæ–‡ä»¶å†…å®¹æŸ¥çœ‹ç¼–è¾‘.md)
-  - [Linux æ–‡ä»¶å‹ç¼©å’Œè§£å‹](linux/cli/Linuxæ–‡ä»¶å‹ç¼©å’Œè§£å‹.md)
-  - [Linux ç”¨æˆ·ç®¡ç†](linux/cli/Linuxç”¨æˆ·ç®¡ç†.md)
-  - [Linux ç³»ç»Ÿç®¡ç†](linux/cli/Linuxç³»ç»Ÿç®¡ç†.md)
-  - [Linux ç½‘ç»œç®¡ç†](linux/cli/Linuxç½‘ç»œç®¡ç†.md)
-  - [Linux ç¡¬ä»¶ç®¡ç†](linux/cli/Linuxç¡¬ä»¶ç®¡ç†.md)
-  - [Linux è½¯ä»¶ç®¡ç†](linux/cli/Linuxç¡¬ä»¶ç®¡ç†.md)
-- [Linux è¿ç»´](linux/ops/README.md)
-  - [linux å…¸å‹è¿ç»´åº”ç”¨](linux/ops/linuxå…¸å‹è¿ç»´åº”ç”¨.md)
-  - [samba ä½¿ç”¨è¯¦è§£](linux/ops/sambaä½¿ç”¨è¯¦è§£.md)
+- [Linux ÃüÁî½Ì³Ì](linux/cli/README.md)
+  - [²é¿´ Linux ÃüÁî°ïÖúĞÅÏ¢](linux/cli/²é¿´LinuxÃüÁî°ïÖúĞÅÏ¢.md)
+  - [Linux ÎÄ¼şÄ¿Â¼¹ÜÀí](linux/cli/LinuxÎÄ¼şÄ¿Â¼¹ÜÀí.md)
+  - [Linux ÎÄ¼şÄÚÈİ²é¿´ÃüÁî](linux/cli/LinuxÎÄ¼şÄÚÈİ²é¿´±à¼­.md)
+  - [Linux ÎÄ¼şÑ¹ËõºÍ½âÑ¹](linux/cli/LinuxÎÄ¼şÑ¹ËõºÍ½âÑ¹.md)
+  - [Linux ÓÃ»§¹ÜÀí](linux/cli/LinuxÓÃ»§¹ÜÀí.md)
+  - [Linux ÏµÍ³¹ÜÀí](linux/cli/LinuxÏµÍ³¹ÜÀí.md)
+  - [Linux ÍøÂç¹ÜÀí](linux/cli/LinuxÍøÂç¹ÜÀí.md)
+  - [Linux Ó²¼ş¹ÜÀí](linux/cli/LinuxÓ²¼ş¹ÜÀí.md)
+  - [Linux Èí¼ş¹ÜÀí](linux/cli/LinuxÓ²¼ş¹ÜÀí.md)
+- [Linux ÔËÎ¬](linux/ops/README.md)
+  - [linux µäĞÍÔËÎ¬Ó¦ÓÃ](linux/ops/linuxµäĞÍÔËÎ¬Ó¦ÓÃ.md)
+  - [samba Ê¹ÓÃÏê½â](linux/ops/sambaÊ¹ÓÃÏê½â.md)
 
 ### Docker
 
-- [Docker æ•™ç¨‹](docker)
-  - [Docker åº”ç”¨æŒ‡å—](docker/docker.md)
+- [Docker ½Ì³Ì](docker)
+  - [Docker Ó¦ÓÃÖ¸ÄÏ](docker/docker.md)
   - [Docker Cheat Sheet](docker/docker-cheat-sheet.md)
 
 ### Git
 
-- [Git æ•™ç¨‹](git/README.md)
-  - [Git å¿«é€ŸæŒ‡å—](git/git-quickstart.md)
-  - [Git é…ç½®](git/git-configuration.md)
-  - [git-flow å·¥ä½œæµ](git/git-flow.md)
-  - [Git å¸¸è§é—®é¢˜](git/git-faq.md)
+- [Git ½Ì³Ì](git/README.md)
+  - [Git ¿ìËÙÖ¸ÄÏ](git/git-quickstart.md)
+  - [Git ÅäÖÃ](git/git-configuration.md)
+  - [git-flow ¹¤×÷Á÷](git/git-flow.md)
+  - [Git ³£¼ûÎÊÌâ](git/git-faq.md)
 
-## å­¦ä¹ èµ„æº
+## Ñ§Ï°×ÊÔ´
 
-- å‘½ä»¤è¡Œæ£€ç´¢
-  - [Linux å‘½ä»¤å¤§å…¨](http://man.linuxde.net/)
+- ÃüÁîĞĞ¼ìË÷
+  - [Linux ÃüÁî´óÈ«](http://man.linuxde.net/)
   - [linux-command](https://jaywcjlove.gitee.io/linux-command/)
-- ç¤¾åŒºç½‘ç«™
-  - [Linux ä¸­å›½](https://linux.cn/) - å„ç§èµ„è®¯ã€æ–‡ç« ã€æŠ€æœ¯
-  - [å®éªŒæ¥¼](https://www.shiyanlou.com/) - å…è´¹æä¾›äº† Linux åœ¨çº¿ç¯å¢ƒï¼Œä¸ç”¨åœ¨è‡ªå·±æœºå­ä¸Šè£…ç³»ç»Ÿä¹Ÿå¯ä»¥å­¦ä¹  Linuxï¼Œè¶…æ–¹ä¾¿å®ç”¨ã€‚
-  - [é¸Ÿå“¥çš„ linux ç§æˆ¿èœ](http://linux.vbird.org/) - éå¸¸é€‚åˆ Linux å…¥é—¨åˆå­¦è€…çœ‹çš„æ•™ç¨‹ã€‚
-  - [Linux å…¬ç¤¾](http://www.linuxidc.com/) - Linux ç›¸å…³çš„æ–°é—»ã€æ•™ç¨‹ã€ä¸»é¢˜ã€å£çº¸éƒ½æœ‰ã€‚
-  - [Linux Today](http://www.linuxde.net) - Linux æ–°é—»èµ„è®¯å‘å¸ƒï¼ŒLinux èŒä¸šæŠ€æœ¯å­¦ä¹ ï¼ã€‚
-- çŸ¥è¯†ç›¸å…³
-  - [Linux æ€ç»´å¯¼å›¾æ•´ç†](http://www.jianshu.com/p/59f759207862)
-  - [Linux åˆå­¦è€…è¿›é˜¶å­¦ä¹ èµ„æºæ•´ç†](http://www.jianshu.com/p/fe2a790b41eb)
-  - [Linux åŸºç¡€å…¥é—¨ï¼ˆæ–°ç‰ˆï¼‰](https://www.shiyanlou.com/courses/1)
-  - [ã€è¯‘ã€‘Linux æ¦‚å¿µæ¶æ„çš„ç†è§£](http://www.jianshu.com/p/c5ae8f061cfe) [En](http://oss.org.cn/ossdocs/linux/kernel/a1/index.html)
-  - [Linux å®ˆæŠ¤è¿›ç¨‹çš„å¯åŠ¨æ–¹æ³•](http://www.ruanyifeng.com/blog/2016/02/linux-daemon.html)
-  - [Linux ç¼–ç¨‹ä¹‹å†…å­˜æ˜ å°„](https://www.shiyanlou.com/questions/2992)
-  - [Linux çŸ¥è¯†ç‚¹å°ç»“](https://blog.huachao.me/2016/1/Linux%E7%9F%A5%E8%AF%86%E7%82%B9%E5%B0%8F%E7%BB%93/)
-  - [10 å¤§ç™½å¸½é»‘å®¢ä¸“ç”¨çš„ Linux æ“ä½œç³»ç»Ÿ](https://linux.cn/article-6971-1.html)
-- è½¯ä»¶å·¥å…·
-  - [è¶…èµçš„ Linux è½¯ä»¶](https://www.gitbook.com/book/alim0x/awesome-linux-software-zh_cn/details) Github ä»“åº“[Zh](https://github.com/alim0x/Awesome-Linux-Software-zh_CN) [En](https://github.com/VoLuong/Awesome-Linux-Software)
-  - [ç¨‹åºå‘˜å–œæ¬¢çš„ 9 æ¬¾æœ€ä½³çš„ Linux æ–‡ä»¶æ¯”è¾ƒå·¥å…·](http://os.51cto.com/art/201607/513796.htm)
-  - [æé«˜ Linux å¼€å‘æ•ˆç‡çš„ 5 ä¸ªå·¥å…·](http://www.codeceo.com/article/5-linux-productivity-tools.html)
-  - [ä½ è¦äº†è§£çš„ 11 æ¬¾é¢å‘ Linux ç³»ç»Ÿçš„ä¸€æµå¤‡ä»½å®ç”¨å·¥å…·](http://os.51cto.com/art/201603/508027.htm)
-  - [16 ä¸ªå¾ˆæœ‰ç”¨çš„åœ¨çº¿å·¥å…·](http://www.simlinux.com/archives/264.html)
-  - Adobe è½¯ä»¶çš„æœ€ä½³æ›¿ä»£å“ [åŸæ–‡åœ¨è¿™é‡Œ](https://linux.cn/article-8928-1.html)
-    - [Evince (Adobe Acrobat Reader)](https://wiki.gnome.org/Apps/Evince) ä¸€ä¸ªâ€œæ”¯æŒå¤šç§æ–‡æ¡£æ ¼å¼çš„æ–‡æ¡£æŸ¥çœ‹å™¨â€ï¼Œå¯ä»¥æŸ¥çœ‹ PDFï¼Œè¿˜æ”¯æŒå„ç§æ¼«ç”»ä¹¦æ ¼å¼
-    - [Pixlr (Adobe Photoshop)](https://pixlr.com/) ä¸€ä¸ªå¼ºå¤§çš„å›¾åƒç¼–è¾‘å·¥å…·
-    - [Inkscape (Adobe Illustrator)](https://inkscape.org/zh/) ä¸€ä¸ªä¸“ä¸šçš„çŸ¢é‡å›¾å½¢ç¼–è¾‘å™¨
-    - [Pinegrow Web Editor (Adobe Dreamweaver)](https://pinegrow.com/) ä¸€ä¸ªå¯è§†åŒ–ç¼–è¾‘åˆ¶ä½œ HTML ç½‘ç«™
-    - [Scribus (Adobe InDesign)](https://www.scribus.net/) ä¸€ä¸ªå¼€æºç”µå­æ‚å¿—åˆ¶ä½œè½¯ä»¶
-    - [Webflow (Adobe Muse)](https://webflow.com/) ä¸€æ¬¾å¯ä»¥å¸®åŠ©ç”¨æˆ·ä¸ç”¨ç¼–ç å°±å¯ä»¥å¿«é€Ÿåˆ›å»ºç½‘ç«™çš„è°·æ­Œæµè§ˆå™¨æ’ä»¶ã€‚
-    - [Tupi (Adobe Animate)](http://www.maefloresta.com/portal/) ä¸€æ¬¾å¯ä»¥åˆ›å»º HTML5 åŠ¨ç”»çš„å·¥å…·ã€‚
-    - [Black Magic Fusion (Adobe After Effects)](https://www.blackmagicdesign.com) ä¸€æ¬¾å…ˆè¿›çš„åˆæˆè½¯ä»¶ï¼Œå¹¿æ³›åº”ç”¨äºè§†è§‰ç‰¹æ•ˆã€å¹¿ç”µå½±è§†è®¾è®¡ä»¥åŠ 3D åŠ¨ç”»è®¾è®¡ç­‰é¢†åŸŸã€‚
-- ä¸­å›½å¼€æºé•œåƒç«™ç‚¹
-  - [é˜¿é‡Œäº‘å¼€æºé•œåƒç«™](http://mirrors.aliyun.com/)
-  - [ç½‘æ˜“å¼€æºé•œåƒç«™](http://mirrors.163.com/)
-  - [æœç‹å¼€æºé•œåƒç«™](http://mirrors.sohu.com/)
-  - [åŒ—äº¬äº¤é€šå¤§å­¦](http://mirror.bjtu.edu.cn/)
-  - [å…°å·å¤§å­¦](http://mirror.lzu.edu.cn/)
-  - [å¦é—¨å¤§å­¦](http://mirrors.xmu.edu.cn/)
-  - [ä¸Šæµ·äº¤é€šå¤§å­¦](http://ftp.sjtu.edu.cn/)
-  - [æ¸…åå¤§å­¦](http://mirrors.tuna.tsinghua.edu.cn/)
-  - [ä¸­å›½ç§‘å­¦æŠ€æœ¯å¤§å­¦](http://mirrors.ustc.edu.cn/)
-  - [ä¸œåŒ—å¤§å­¦](http://mirror.neu.edu.cn/)
-  - [æµ™æ±Ÿå¤§å­¦](http://mirrors.zju.edu.cn/)
-  - [ä¸œè½¯ä¿¡æ¯å­¦é™¢](http://mirrors.neusoft.edu.cn/)
+- ÉçÇøÍøÕ¾
+  - [Linux ÖĞ¹ú](https://linux.cn/) - ¸÷ÖÖ×ÊÑ¶¡¢ÎÄÕÂ¡¢¼¼Êõ
+  - [ÊµÑéÂ¥](https://www.shiyanlou.com/) - Ãâ·ÑÌá¹©ÁË Linux ÔÚÏß»·¾³£¬²»ÓÃÔÚ×Ô¼º»ú×ÓÉÏ×°ÏµÍ³Ò²¿ÉÒÔÑ§Ï° Linux£¬³¬·½±ãÊµÓÃ¡£
+  - [Äñ¸çµÄ linux Ë½·¿²Ë](http://linux.vbird.org/) - ·Ç³£ÊÊºÏ Linux ÈëÃÅ³õÑ§Õß¿´µÄ½Ì³Ì¡£
+  - [Linux ¹«Éç](http://www.linuxidc.com/) - Linux Ïà¹ØµÄĞÂÎÅ¡¢½Ì³Ì¡¢Ö÷Ìâ¡¢±ÚÖ½¶¼ÓĞ¡£
+  - [Linux Today](http://www.linuxde.net) - Linux ĞÂÎÅ×ÊÑ¶·¢²¼£¬Linux Ö°Òµ¼¼ÊõÑ§Ï°£¡¡£
+- ÖªÊ¶Ïà¹Ø
+  - [Linux Ë¼Î¬µ¼Í¼ÕûÀí](http://www.jianshu.com/p/59f759207862)
+  - [Linux ³õÑ§Õß½ø½×Ñ§Ï°×ÊÔ´ÕûÀí](http://www.jianshu.com/p/fe2a790b41eb)
+  - [Linux »ù´¡ÈëÃÅ£¨ĞÂ°æ£©](https://www.shiyanlou.com/courses/1)
+  - [¡¾Òë¡¿Linux ¸ÅÄî¼Ü¹¹µÄÀí½â](http://www.jianshu.com/p/c5ae8f061cfe) [En](http://oss.org.cn/ossdocs/linux/kernel/a1/index.html)
+  - [Linux ÊØ»¤½ø³ÌµÄÆô¶¯·½·¨](http://www.ruanyifeng.com/blog/2016/02/linux-daemon.html)
+  - [Linux ±à³ÌÖ®ÄÚ´æÓ³Éä](https://www.shiyanlou.com/questions/2992)
+  - [Linux ÖªÊ¶µãĞ¡½á](https://blog.huachao.me/2016/1/Linux%E7%9F%A5%E8%AF%86%E7%82%B9%E5%B0%8F%E7%BB%93/)
+  - [10 ´ó°×Ã±ºÚ¿Í×¨ÓÃµÄ Linux ²Ù×÷ÏµÍ³](https://linux.cn/article-6971-1.html)
+- Èí¼ş¹¤¾ß
+  - [³¬ÔŞµÄ Linux Èí¼ş](https://www.gitbook.com/book/alim0x/awesome-linux-software-zh_cn/details) Github ²Ö¿â[Zh](https://github.com/alim0x/Awesome-Linux-Software-zh_CN) [En](https://github.com/VoLuong/Awesome-Linux-Software)
+  - [³ÌĞòÔ±Ï²»¶µÄ 9 ¿î×î¼ÑµÄ Linux ÎÄ¼ş±È½Ï¹¤¾ß](http://os.51cto.com/art/201607/513796.htm)
+  - [Ìá¸ß Linux ¿ª·¢Ğ§ÂÊµÄ 5 ¸ö¹¤¾ß](http://www.codeceo.com/article/5-linux-productivity-tools.html)
+  - [ÄãÒªÁË½âµÄ 11 ¿îÃæÏò Linux ÏµÍ³µÄÒ»Á÷±¸·İÊµÓÃ¹¤¾ß](http://os.51cto.com/art/201603/508027.htm)
+  - [16 ¸öºÜÓĞÓÃµÄÔÚÏß¹¤¾ß](http://www.simlinux.com/archives/264.html)
+  - Adobe Èí¼şµÄ×î¼ÑÌæ´úÆ· [Ô­ÎÄÔÚÕâÀï](https://linux.cn/article-8928-1.html)
+    - [Evince (Adobe Acrobat Reader)](https://wiki.gnome.org/Apps/Evince) Ò»¸ö¡°Ö§³Ö¶àÖÖÎÄµµ¸ñÊ½µÄÎÄµµ²é¿´Æ÷¡±£¬¿ÉÒÔ²é¿´ PDF£¬»¹Ö§³Ö¸÷ÖÖÂş»­Êé¸ñÊ½
+    - [Pixlr (Adobe Photoshop)](https://pixlr.com/) Ò»¸öÇ¿´óµÄÍ¼Ïñ±à¼­¹¤¾ß
+    - [Inkscape (Adobe Illustrator)](https://inkscape.org/zh/) Ò»¸ö×¨ÒµµÄÊ¸Á¿Í¼ĞÎ±à¼­Æ÷
+    - [Pinegrow Web Editor (Adobe Dreamweaver)](https://pinegrow.com/) Ò»¸ö¿ÉÊÓ»¯±à¼­ÖÆ×÷ HTML ÍøÕ¾
+    - [Scribus (Adobe InDesign)](https://www.scribus.net/) Ò»¸ö¿ªÔ´µç×ÓÔÓÖ¾ÖÆ×÷Èí¼ş
+    - [Webflow (Adobe Muse)](https://webflow.com/) Ò»¿î¿ÉÒÔ°ïÖúÓÃ»§²»ÓÃ±àÂë¾Í¿ÉÒÔ¿ìËÙ´´½¨ÍøÕ¾µÄ¹È¸èä¯ÀÀÆ÷²å¼ş¡£
+    - [Tupi (Adobe Animate)](http://www.maefloresta.com/portal/) Ò»¿î¿ÉÒÔ´´½¨ HTML5 ¶¯»­µÄ¹¤¾ß¡£
+    - [Black Magic Fusion (Adobe After Effects)](https://www.blackmagicdesign.com) Ò»¿îÏÈ½øµÄºÏ³ÉÈí¼ş£¬¹ã·ºÓ¦ÓÃÓÚÊÓ¾õÌØĞ§¡¢¹ãµçÓ°ÊÓÉè¼ÆÒÔ¼° 3D ¶¯»­Éè¼ÆµÈÁìÓò¡£
+- ÖĞ¹ú¿ªÔ´¾µÏñÕ¾µã
+  - [°¢ÀïÔÆ¿ªÔ´¾µÏñÕ¾](http://mirrors.aliyun.com/)
+  - [ÍøÒ×¿ªÔ´¾µÏñÕ¾](http://mirrors.163.com/)
+  - [ËÑºü¿ªÔ´¾µÏñÕ¾](http://mirrors.sohu.com/)
+  - [±±¾©½»Í¨´óÑ§](http://mirror.bjtu.edu.cn/)
+  - [À¼Öİ´óÑ§](http://mirror.lzu.edu.cn/)
+  - [ÏÃÃÅ´óÑ§](http://mirrors.xmu.edu.cn/)
+  - [ÉÏº£½»Í¨´óÑ§](http://ftp.sjtu.edu.cn/)
+  - [Çå»ª´óÑ§](http://mirrors.tuna.tsinghua.edu.cn/)
+  - [ÖĞ¹ú¿ÆÑ§¼¼Êõ´óÑ§](http://mirrors.ustc.edu.cn/)
+  - [¶«±±´óÑ§](http://mirror.neu.edu.cn/)
+  - [Õã½­´óÑ§](http://mirrors.zju.edu.cn/)
+  - [¶«ÈíĞÅÏ¢Ñ§Ôº](http://mirrors.neusoft.edu.cn/)

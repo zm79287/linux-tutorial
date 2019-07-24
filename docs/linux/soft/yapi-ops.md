@@ -1,59 +1,59 @@
-# YApi è¿ç»´
+# YApi ÔËÎ¬
 
-> [YApi](https://github.com/YMFE/yapi) æ˜¯ä¸€ä¸ªå¯æœ¬åœ°éƒ¨ç½²çš„ã€æ‰“é€šå‰åç«¯åŠ QA çš„ã€å¯è§†åŒ–çš„æ¥å£ç®¡ç†å¹³å°ã€‚
+> [YApi](https://github.com/YMFE/yapi) ÊÇÒ»¸ö¿É±¾µØ²¿ÊğµÄ¡¢´òÍ¨Ç°ºó¶Ë¼° QA µÄ¡¢¿ÉÊÓ»¯µÄ½Ó¿Ú¹ÜÀíÆ½Ì¨¡£
 >
-> æœ¬æ–‡ç›®çš„åœ¨äºè®°å½• svn çš„å®‰è£…ã€é…ç½®ã€ä½¿ç”¨ã€‚
+> ±¾ÎÄÄ¿µÄÔÚÓÚ¼ÇÂ¼ svn µÄ°²×°¡¢ÅäÖÃ¡¢Ê¹ÓÃ¡£
 
 <div align="center"><img src="https://gitee.com/turnon/images/raw/master/snap/1562814562978.png"/></div>
 
 <!-- TOC depthFrom:2 depthTo:3 -->
 
-- [1. æ™®é€šéƒ¨ç½²](#1-æ™®é€šéƒ¨ç½²)
-    - [1.1. ç¯å¢ƒè¦æ±‚](#11-ç¯å¢ƒè¦æ±‚)
-    - [1.2. éƒ¨ç½²](#12-éƒ¨ç½²)
-    - [1.3. å‡çº§](#13-å‡çº§)
-- [2. Docker éƒ¨ç½²](#2-docker-éƒ¨ç½²)
-    - [2.1. ç¯å¢ƒè¦æ±‚](#21-ç¯å¢ƒè¦æ±‚)
-    - [2.2. éƒ¨ç½²](#22-éƒ¨ç½²)
-- [3. å‚è€ƒèµ„æ–™](#3-å‚è€ƒèµ„æ–™)
+- [1. ÆÕÍ¨²¿Êğ](#1-ÆÕÍ¨²¿Êğ)
+    - [1.1. »·¾³ÒªÇó](#11-»·¾³ÒªÇó)
+    - [1.2. ²¿Êğ](#12-²¿Êğ)
+    - [1.3. Éı¼¶](#13-Éı¼¶)
+- [2. Docker ²¿Êğ](#2-docker-²¿Êğ)
+    - [2.1. »·¾³ÒªÇó](#21-»·¾³ÒªÇó)
+    - [2.2. ²¿Êğ](#22-²¿Êğ)
+- [3. ²Î¿¼×ÊÁÏ](#3-²Î¿¼×ÊÁÏ)
 
 <!-- /TOC -->
 
-## 1. æ™®é€šéƒ¨ç½²
+## 1. ÆÕÍ¨²¿Êğ
 
-### 1.1. ç¯å¢ƒè¦æ±‚
+### 1.1. »·¾³ÒªÇó
 
-- nodejsï¼ˆ7.6+)
-- mongodbï¼ˆ2.6+ï¼‰
+- nodejs£¨7.6+)
+- mongodb£¨2.6+£©
 - git
 
-### 1.2. éƒ¨ç½²
+### 1.2. ²¿Êğ
 
-#### æ–¹å¼ä¸€. å¯è§†åŒ–éƒ¨ç½²[æ¨è]
+#### ·½Ê½Ò». ¿ÉÊÓ»¯²¿Êğ[ÍÆ¼ö]
 
-æ‰§è¡Œ yapi server å¯åŠ¨å¯è§†åŒ–éƒ¨ç½²ç¨‹åºï¼Œè¾“å…¥ç›¸åº”çš„é…ç½®å’Œç‚¹å‡»å¼€å§‹éƒ¨ç½²ï¼Œå°±èƒ½å®Œæˆæ•´ä¸ªç½‘ç«™çš„éƒ¨ç½²ã€‚éƒ¨ç½²å®Œæˆä¹‹åï¼Œå¯æŒ‰ç…§æç¤ºä¿¡æ¯ï¼Œæ‰§è¡Œ node/{ç½‘ç«™è·¯å¾„/server/app.js} å¯åŠ¨æœåŠ¡å™¨ã€‚åœ¨æµè§ˆå™¨æ‰“å¼€æŒ‡å®š url, ç‚¹å‡»ç™»å½•è¾“å…¥æ‚¨åˆšæ‰è®¾ç½®çš„ç®¡ç†å‘˜é‚®ç®±ï¼Œé»˜è®¤å¯†ç (ymfe.org) ç™»å½•ç³»ç»Ÿï¼ˆé»˜è®¤å¯†ç å¯åœ¨ä¸ªäººä¸­å¿ƒä¿®æ”¹ï¼‰ã€‚
+Ö´ĞĞ yapi server Æô¶¯¿ÉÊÓ»¯²¿Êğ³ÌĞò£¬ÊäÈëÏàÓ¦µÄÅäÖÃºÍµã»÷¿ªÊ¼²¿Êğ£¬¾ÍÄÜÍê³ÉÕû¸öÍøÕ¾µÄ²¿Êğ¡£²¿ÊğÍê³ÉÖ®ºó£¬¿É°´ÕÕÌáÊ¾ĞÅÏ¢£¬Ö´ĞĞ node/{ÍøÕ¾Â·¾¶/server/app.js} Æô¶¯·şÎñÆ÷¡£ÔÚä¯ÀÀÆ÷´ò¿ªÖ¸¶¨ url, µã»÷µÇÂ¼ÊäÈëÄú¸Õ²ÅÉèÖÃµÄ¹ÜÀíÔ±ÓÊÏä£¬Ä¬ÈÏÃÜÂë(ymfe.org) µÇÂ¼ÏµÍ³£¨Ä¬ÈÏÃÜÂë¿ÉÔÚ¸öÈËÖĞĞÄĞŞ¸Ä£©¡£
 
 ```bash
 $ npm install -g yapi-cli --registry https://registry.npm.taobao.org
 $ yapi server
 ```
 
-#### æ–¹å¼äºŒ. å‘½ä»¤è¡Œéƒ¨ç½²
+#### ·½Ê½¶ş. ÃüÁîĞĞ²¿Êğ
 
-å¦‚æœ github å‹ç¼©æ–‡ä»¶æ— æ³•ä¸‹è½½ï¼Œæˆ–éœ€è¦éƒ¨ç½²åˆ°ä¸€äº›ç‰¹æ®Šçš„æœåŠ¡å™¨ï¼Œå¯å°è¯•æ­¤æ–¹æ³•
+Èç¹û github Ñ¹ËõÎÄ¼şÎŞ·¨ÏÂÔØ£¬»òĞèÒª²¿Êğµ½Ò»Ğ©ÌØÊâµÄ·şÎñÆ÷£¬¿É³¢ÊÔ´Ë·½·¨
 
 ```bash
 mkdir yapi
 cd yapi
-git clone https://github.com/YMFE/yapi.git vendors //æˆ–è€…ä¸‹è½½ zip åŒ…è§£å‹åˆ° vendors ç›®å½•ï¼ˆclone æ•´ä¸ªä»“åº“å¤§æ¦‚ 140+ Mï¼Œå¯ä»¥é€šè¿‡ `git clone --depth=1 https://github.com/YMFE/yapi.git vendors` å‘½ä»¤å‡å°‘ï¼Œå¤§æ¦‚ 10+ Mï¼‰
-cp vendors/config_example.json ./config.json //å¤åˆ¶å®Œæˆåè¯·ä¿®æ”¹ç›¸å…³é…ç½®
+git clone https://github.com/YMFE/yapi.git vendors //»òÕßÏÂÔØ zip °ü½âÑ¹µ½ vendors Ä¿Â¼£¨clone Õû¸ö²Ö¿â´ó¸Å 140+ M£¬¿ÉÒÔÍ¨¹ı `git clone --depth=1 https://github.com/YMFE/yapi.git vendors` ÃüÁî¼õÉÙ£¬´ó¸Å 10+ M£©
+cp vendors/config_example.json ./config.json //¸´ÖÆÍê³ÉºóÇëĞŞ¸ÄÏà¹ØÅäÖÃ
 cd vendors
 npm install --production --registry https://registry.npm.taobao.org
-npm run install-server //å®‰è£…ç¨‹åºä¼šåˆå§‹åŒ–æ•°æ®åº“ç´¢å¼•å’Œç®¡ç†å‘˜è´¦å·ï¼Œç®¡ç†å‘˜è´¦å·åå¯åœ¨ config.json é…ç½®
-node server/app.js //å¯åŠ¨æœåŠ¡å™¨åï¼Œè¯·è®¿é—® 127.0.0.1:{config.jsoné…ç½®çš„ç«¯å£}ï¼Œåˆæ¬¡è¿è¡Œä¼šæœ‰ä¸ªç¼–è¯‘çš„è¿‡ç¨‹ï¼Œè¯·è€å¿ƒç­‰å€™
+npm run install-server //°²×°³ÌĞò»á³õÊ¼»¯Êı¾İ¿âË÷ÒıºÍ¹ÜÀíÔ±ÕËºÅ£¬¹ÜÀíÔ±ÕËºÅÃû¿ÉÔÚ config.json ÅäÖÃ
+node server/app.js //Æô¶¯·şÎñÆ÷ºó£¬Çë·ÃÎÊ 127.0.0.1:{config.jsonÅäÖÃµÄ¶Ë¿Ú}£¬³õ´ÎÔËĞĞ»áÓĞ¸ö±àÒëµÄ¹ı³Ì£¬ÇëÄÍĞÄµÈºò
 ```
 
-å®‰è£…åçš„ç›®å½•ç»“æ„å¦‚ä¸‹ï¼š
+°²×°ºóµÄÄ¿Â¼½á¹¹ÈçÏÂ£º
 
 ```
 |-- config.json
@@ -81,37 +81,37 @@ node server/app.js //å¯åŠ¨æœåŠ¡å™¨åï¼Œè¯·è®¿é—® 127.0.0.1:{config.jsoné…ç½®
     `-- ykit.config.js
 ```
 
-### 1.3. å‡çº§
+### 1.3. Éı¼¶
 
-å‡çº§é¡¹ç›®ç‰ˆæœ¬æ˜¯éå¸¸å®¹æ˜“çš„ï¼Œå¹¶ä¸”ä¸ä¼šå½±å“å·²æœ‰çš„é¡¹ç›®æ•°æ®ï¼Œåªä¼šåŒæ­¥ vendors ç›®å½•ä¸‹çš„æºç æ–‡ä»¶ã€‚
+Éı¼¶ÏîÄ¿°æ±¾ÊÇ·Ç³£ÈİÒ×µÄ£¬²¢ÇÒ²»»áÓ°ÏìÒÑÓĞµÄÏîÄ¿Êı¾İ£¬Ö»»áÍ¬²½ vendors Ä¿Â¼ÏÂµÄÔ´ÂëÎÄ¼ş¡£
 
 ```
-cd  {é¡¹ç›®ç›®å½•}
-yapi ls //æŸ¥çœ‹ç‰ˆæœ¬å·åˆ—è¡¨
-yapi update //å‡çº§åˆ°æœ€æ–°ç‰ˆæœ¬
-yapi update -v v1.1.0 //å‡çº§åˆ°æŒ‡å®šç‰ˆæœ¬
+cd  {ÏîÄ¿Ä¿Â¼}
+yapi ls //²é¿´°æ±¾ºÅÁĞ±í
+yapi update //Éı¼¶µ½×îĞÂ°æ±¾
+yapi update -v v1.1.0 //Éı¼¶µ½Ö¸¶¨°æ±¾
 ```
 
-## 2. Docker éƒ¨ç½²
+## 2. Docker ²¿Êğ
 
-### 2.1. ç¯å¢ƒè¦æ±‚
+### 2.1. »·¾³ÒªÇó
 
-- ç³»ç»Ÿï¼š`CentOS 7.4`
-- ç¡¬ä»¶è¦æ±‚ï¼š`1 GB RAM minimum`
-- ipï¼š`http://192.168.1.121`
-- docker versionï¼š`17.12.1-ce, build 7390fc6`
-- docker-compose versionï¼š`1.18.0, build 8dd22a9`
+- ÏµÍ³£º`CentOS 7.4`
+- Ó²¼şÒªÇó£º`1 GB RAM minimum`
+- ip£º`http://192.168.1.121`
+- docker version£º`17.12.1-ce, build 7390fc6`
+- docker-compose version£º`1.18.0, build 8dd22a9`
 
-> å»ºè®®éƒ¨ç½²æˆ http ç«™ç‚¹ï¼Œå›  chrome æµè§ˆå™¨å®‰å…¨é™åˆ¶ï¼Œéƒ¨ç½²æˆ https ä¼šå¯¼è‡´æµ‹è¯•åŠŸèƒ½åœ¨è¯·æ±‚ http ç«™ç‚¹æ—¶æ–‡ä»¶ä¸Šä¼ åŠŸèƒ½å¼‚å¸¸ã€‚--[æ¥æº](https://yapi.ymfe.org/devops.html)
+> ½¨Òé²¿Êğ³É http Õ¾µã£¬Òò chrome ä¯ÀÀÆ÷°²È«ÏŞÖÆ£¬²¿Êğ³É https »áµ¼ÖÂ²âÊÔ¹¦ÄÜÔÚÇëÇó http Õ¾µãÊ±ÎÄ¼şÉÏ´«¹¦ÄÜÒì³£¡£--[À´Ô´](https://yapi.ymfe.org/devops.html)
 
-### 2.2. éƒ¨ç½²
+### 2.2. ²¿Êğ
 
-- ä¸€ä¸ªå¥½å¿ƒäººçš„ç»´æŠ¤ï¼š<https://github.com/branchzero/yapi-docker>
-- ä½¿ç”¨æ–¹æ³•ï¼š - work pathï¼š`mkdir -p /opt/git-data` - cloneï¼š`cd /opt/git-data && git clone https://github.com/branchzero/yapi-docker.git` - permissionï¼š`chmod -R 777 /opt/git-data` - run commandï¼š`cd /opt/git-data/yapi-docker && docker-compose up -d` - open chromeï¼š`http://192.168.1.121:3000`
-- åˆå§‹åŒ–ç®¡ç†å‘˜è´¦å·åï¼š`admin@admin.com`ï¼Œå¯†ç ï¼š`ymfe.org`
+- Ò»¸öºÃĞÄÈËµÄÎ¬»¤£º<https://github.com/branchzero/yapi-docker>
+- Ê¹ÓÃ·½·¨£º - work path£º`mkdir -p /opt/git-data` - clone£º`cd /opt/git-data && git clone https://github.com/branchzero/yapi-docker.git` - permission£º`chmod -R 777 /opt/git-data` - run command£º`cd /opt/git-data/yapi-docker && docker-compose up -d` - open chrome£º`http://192.168.1.121:3000`
+- ³õÊ¼»¯¹ÜÀíÔ±ÕËºÅÃû£º`admin@admin.com`£¬ÃÜÂë£º`ymfe.org`
 
-## 3. å‚è€ƒèµ„æ–™
+## 3. ²Î¿¼×ÊÁÏ
 
-- [å®˜æ–¹ Github](https://github.com/YMFE/yapi)
-- [å®˜ç½‘åœ¨çº¿æ¼”ç¤º](http://yapi.demo.qunar.com/)
-- [å®˜æ–¹ä½¿ç”¨æ‰‹å†Œ](https://hellosean1025.github.io/yapi/index.html)
+- [¹Ù·½ Github](https://github.com/YMFE/yapi)
+- [¹ÙÍøÔÚÏßÑİÊ¾](http://yapi.demo.qunar.com/)
+- [¹Ù·½Ê¹ÓÃÊÖ²á](https://hellosean1025.github.io/yapi/index.html)
